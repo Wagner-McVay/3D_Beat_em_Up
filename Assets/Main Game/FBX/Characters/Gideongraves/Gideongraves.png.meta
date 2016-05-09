@@ -1,0 +1,3157 @@
+fileFormatVersion: 2
+guid: b7d5fbdd129eacd44b663c23bedc7cde
+timeCreated: 1453232372
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gideongraves_Idle_1
+    21300002: Gideongraves_Idle_2
+    21300004: Gideongraves_Idle_3
+    21300006: Gideongraves_Idle_4
+    21300008: Gideongraves_DarkIdle_1
+    21300010: Gideongraves_DarkIdle_2
+    21300012: Gideongraves_DarkIdle_3
+    21300014: Gideongraves_DarkIdle_4
+    21300016: Gideongraves_Icon
+    21300018: Gideongraves_Walk_1
+    21300020: Gideongraves_Walk_2
+    21300022: Gideongraves_Walk_3
+    21300024: Gideongraves_Walk_4
+    21300026: Gideongraves_Walk_5
+    21300028: Gideongraves_Walk_6
+    21300030: Gideongraves_DarkWalk_1
+    21300032: Gideongraves_DarkWalk_2
+    21300034: Gideongraves_DarkWalk_3
+    21300036: Gideongraves_DarkWalk_4
+    21300038: Gideongraves_DarkWalk_5
+    21300040: Gideongraves_DarkWalk_6
+    21300042: Gideongraves_Sprint_2
+    21300044: Gideongraves_Sprint_3
+    21300046: Gideongraves_Sprint_4
+    21300048: Gideongraves_Sprint_6
+    21300050: Gideongraves_Sprint_1
+    21300052: Gideongraves_Sprint_5
+    21300054: Gideongraves_Sprint_7
+    21300056: Gideongraves_Sprint_8
+    21300058: Gideongraves_GetUp_1
+    21300060: Gideongraves_GetUp_2
+    21300062: Gideongraves_GetUp_3
+    21300064: Gideongraves_GetUp_4
+    21300066: Gideongraves_GetUp_5
+    21300068: Gideongraves_GetUp_6
+    21300070: Gideongraves_GetUp_7
+    21300072: Gideongraves_GetUp_8
+    21300074: Gideongraves_GetUp_9
+    21300076: Gideongraves_GetUp_10
+    21300078: Gideongraves_GetUp_11
+    21300080: Gideongraves_GetUp_12
+    21300082: Gideongraves_Taunt_1
+    21300084: Gideongraves_Taunt_2
+    21300086: Gideongraves_Taunt_3
+    21300088: Gideongraves_Taunt_4
+    21300090: Gideongraves_Taunt_5
+    21300092: Gideongraves_Taunt_6
+    21300094: Gideongraves_Taunt_7
+    21300096: Gideongraves_Taunt_8
+    21300098: Gideongraves_Taunt_9
+    21300100: Gideongraves_Taunt_10
+    21300102: Gideongraves_Taunt_11
+    21300104: Gideongraves_Jump_1
+    21300106: Gideongraves_Jump_2
+    21300108: Gideongraves_Jump_3
+    21300110: Gideongraves_Jump_4
+    21300112: Gideongraves_Jump_5
+    21300114: Gideongraves_Jump_6
+    21300116: Gideongraves_Jump_7
+    21300118: Gideongraves_Jump_8
+    21300120: Gideongraves_Jump_9
+    21300122: Gideongraves_HitLt_1
+    21300124: Gideongraves_HitLt_2
+    21300126: Gideongraves_HitLt_3
+    21300128: Gideongraves_HitLt_4
+    21300130: Gideongraves_HitLt_5
+    21300132: Gideongraves_138
+    21300134: Gideongraves_139
+    21300136: Gideongraves_140
+    21300138: Gideongraves_141
+    21300140: Gideongraves_142
+    21300142: Gideongraves_143
+    21300144: Gideongraves_144
+    21300146: Gideongraves_145
+    21300148: Gideongraves_146
+    21300150: Gideongraves_147
+    21300152: Gideongraves_148
+    21300154: Gideongraves_149
+    21300156: Gideongraves_150
+    21300158: Gideongraves_151
+    21300160: Gideongraves_152
+    21300162: Gideongraves_153
+    21300164: Gideongraves_154
+    21300166: Gideongraves_155
+    21300168: Gideongraves_KnockDown_1
+    21300170: Gideongraves_KnockDown_2
+    21300172: Gideongraves_KnockDown_3
+    21300174: Gideongraves_KnockDown_4
+    21300176: Gideongraves_KnockDown_5
+    21300178: Gideongraves_KnockDown_6
+    21300180: Gideongraves_KnockDown_7
+    21300182: Gideongraves_KnockDown_8
+    21300184: Gideongraves_KnockDown_9
+    21300186: Gideongraves_KnockDown_10
+    21300188: Gideongraves_KnockDown_11
+    21300190: Gideongraves_KnockDown_12
+    21300192: Gideongraves_DownAtk_1
+    21300194: Gideongraves_DownAtk_2
+    21300196: Gideongraves_DownAtk_3
+    21300198: Gideongraves_DownAtk_4
+    21300200: Gideongraves_DownAtk_5
+    21300202: Gideongraves_DownAtk_6
+    21300204: Gideongraves_DownAtk_7
+    21300206: Gideongraves_DownAtk_8
+    21300208: Gideongraves_Block_1
+    21300210: Gideongraves_OverSlash_3
+    21300212: Gideongraves_OverSlash_6
+    21300214: Gideongraves_OverSlash_1
+    21300216: Gideongraves_OverSlash_2
+    21300218: Gideongraves_194
+    21300220: Gideongraves_OverSlash_4
+    21300222: Gideongraves_OverSlash_5
+    21300224: Gideongraves_OverSlash_7
+    21300226: Gideongraves_OverSlash_8
+    21300228: Gideongraves_SideSlash_1
+    21300230: Gideongraves_SideSlash_2
+    21300232: Gideongraves_SideSlash_3
+    21300234: Gideongraves_SideSlash_4
+    21300236: Gideongraves_SideSlash_5
+    21300238: Gideongraves_SideSlash_6
+    21300240: Gideongraves_SideSlash_7
+    21300242: Gideongraves_SideSlash_8
+    21300244: Gideongraves_227
+    21300246: Gideongraves_228
+    21300248: Gideongraves_229
+    21300250: Gideongraves_230
+    21300252: Gideongraves_232
+    21300254: Gideongraves_234
+    21300256: Gideongraves_235
+    21300258: Gideongraves_237
+    21300260: Gideongraves_239
+    21300262: Gideongraves_240
+    21300264: Gideongraves_242
+    21300266: Gideongraves_243
+    21300268: Gideongraves_244
+    21300270: Gideongraves_245
+    21300272: Gideongraves_246
+    21300274: Gideongraves_247
+    21300276: Gideongraves_249
+    21300278: Gideongraves_251
+    21300280: Gideongraves_252
+    21300282: Gideongraves_253
+    21300284: Gideongraves_254
+    21300286: Gideongraves_255
+    21300288: Gideongraves_257
+    21300290: Gideongraves_258
+    21300292: Gideongraves_259
+    21300294: Gideongraves_268
+    21300296: Gideongraves_269
+    21300298: Gideongraves_272
+    21300300: Gideongraves_274
+    21300302: Gideongraves_285
+    21300304: Gideongraves_288
+    21300306: Gideongraves_289
+    21300308: Gideongraves_290
+    21300310: Gideongraves_291
+    21300312: Gideongraves_292
+    21300314: Gideongraves_293
+    21300316: Gideongraves_294
+    21300318: Gideongraves_295
+    21300320: Gideongraves_296
+    21300322: Gideongraves_298
+    21300324: Gideongraves_300
+    21300326: Gideongraves_301
+    21300328: Gideongraves_303
+    21300330: Gideongraves_304
+    21300332: Gideongraves_305
+    21300334: Gideongraves_306
+    21300336: Gideongraves_307
+    21300338: Gideongraves_308
+    21300340: Gideongraves_309
+    21300342: Gideongraves_311
+    21300344: Gideongraves_312
+    21300346: Gideongraves_313
+    21300348: Gideongraves_314
+    21300350: Gideongraves_315
+    21300352: Gideongraves_316
+    21300354: Gideongraves_317
+    21300356: Gideongraves_318
+    21300358: Gideongraves_319
+    21300360: Gideongraves_320
+    21300362: Gideongraves_321
+    21300364: Gideongraves_322
+    21300366: Gideongraves_323
+    21300368: Gideongraves_324
+    21300370: Gideongraves_325
+    21300372: Gideongraves_326
+    21300374: Gideongraves_327
+    21300376: Gideongraves_328
+    21300378: Gideongraves_329
+    21300380: Gideongraves_333
+    21300382: Gideongraves_334
+    21300384: Gideongraves_335
+    21300386: Gideongraves_337
+    21300388: Gideongraves_338
+    21300390: Gideongraves_345
+    21300392: Gideongraves_346
+    21300394: Gideongraves_347
+    21300396: Gideongraves_351
+    21300398: Gideongraves_356
+    21300400: Gideongraves_357
+    21300402: Gideongraves_358
+    21300404: Gideongraves_359
+    21300406: Gideongraves_360
+    21300408: Gideongraves_361
+    21300410: Gideongraves_362
+    21300412: Gideongraves_364
+    21300414: Gideongraves_365
+    21300416: Gideongraves_366
+    21300418: Gideongraves_367
+    21300420: Gideongraves_368
+    21300422: Gideongraves_369
+    21300424: Gideongraves_Death1_7
+    21300426: Gideongraves_Death1_8
+    21300428: Gideongraves_Death1_9
+    21300430: Gideongraves_Death1_11
+    21300432: Gideongraves_Death1_10
+    21300434: Gideongraves_Death1_12
+    21300436: Gideongraves_Death1_15
+    21300438: Gideongraves_Death1_1
+    21300440: Gideongraves_Death1_2
+    21300442: Gideongraves_Death1_5
+    21300444: Gideongraves_Death1_6
+    21300446: Gideongraves_Death1_3
+    21300448: Gideongraves_Death1_4
+    21300450: Gideongraves_Death1_13
+    21300452: Gideongraves_Death1_14
+    21300454: Gideongraves_456
+    21300456: Gideongraves_457
+    21300458: Gideongraves_458
+    21300460: Gideongraves_459
+    21300462: Gideongraves_460
+    21300464: Gideongraves_461
+    21300466: Gideongraves_462
+    21300468: Gideongraves_463
+    21300470: Gideongraves_464
+    21300472: Gideongraves_465
+    21300474: Gideongraves_466
+    21300476: Gideongraves_467
+    21300478: Gideongraves_468
+    21300480: Gideongraves_469
+    21300482: Gideongraves_470
+    21300484: Gideongraves_471
+    21300486: Gideongraves_472
+    21300488: Gideongraves_473
+    21300490: Gideongraves_474
+    21300492: Gideongraves_475
+    21300494: Gideongraves_476
+    21300496: Gideongraves_477
+    21300498: Gideongraves_478
+    21300500: Gideongraves_484
+    21300502: Gideongraves_485
+    21300504: Gideongraves_486
+    21300506: Gideongraves_487
+    21300508: Gideongraves_488
+    21300510: Gideongraves_492
+    21300512: Gideongraves_493
+    21300514: Gideongraves_495
+    21300516: Gideongraves_496
+    21300518: Gideongraves_497
+    21300520: Gideongraves_498
+    21300522: Gideongraves_499
+    21300524: Gideongraves_500
+    21300526: Gideongraves_501
+    21300528: Gideongraves_502
+    21300530: Gideongraves_503
+    21300532: Gideongraves_504
+    21300534: Gideongraves_505
+    21300536: Gideongraves_506
+    21300538: Gideongraves_507
+    21300540: Gideongraves_508
+    21300542: Gideongraves_509
+    21300544: Gideongraves_510
+    21300546: Gideongraves_512
+    21300548: Gideongraves_534
+    21300550: Gideongraves_536
+    21300552: Gideongraves_550
+    21300554: Gideongraves_561
+    21300556: Gideongraves_563
+    21300558: Gideongraves_569
+    21300560: Gideongraves_597
+    21300562: Gideongraves_Description
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gideongraves_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2442
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2442
+        width: 29
+        height: 69
+      alignment: 9
+      pivot: {x: .524999976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2442
+        width: 30
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2442
+        width: 32
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkIdle_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2442
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkIdle_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2442
+        width: 29
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkIdle_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2442
+        width: 30
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkIdle_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2442
+        width: 32
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Icon
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2386
+        width: 343
+        height: 128
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2366
+        width: 37
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2366
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2366
+        width: 30
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2366
+        width: 32
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2366
+        width: 29
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2366
+        width: 29
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkWalk_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2366
+        width: 37
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkWalk_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2366
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkWalk_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2366
+        width: 30
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkWalk_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2366
+        width: 32
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkWalk_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2366
+        width: 29
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DarkWalk_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2366
+        width: 29
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2291
+        width: 57
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2291
+        width: 57
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2291
+        width: 56
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2291
+        width: 53
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2291
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2291
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2291
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Sprint_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2291
+        width: 52
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2216
+        width: 54
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2216
+        width: 54
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2216
+        width: 55
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2216
+        width: 55
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2216
+        width: 54
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2216
+        width: 52
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2216
+        width: 46
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2216
+        width: 41
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2216
+        width: 29
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_10
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2216
+        width: 35
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2216
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_GetUp_12
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2216
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2138
+        width: 28
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2138
+        width: 37
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2138
+        width: 40
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2138
+        width: 40
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2138
+        width: 40
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2138
+        width: 40
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2138
+        width: 40
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2138
+        width: 40
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2138
+        width: 37
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2138
+        width: 29
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Taunt_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2138
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2055
+        width: 48
+        height: 51
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2061
+        width: 42
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2061
+        width: 41
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2061
+        width: 39
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2063
+        width: 37
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2065
+        width: 35
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2063
+        width: 32
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2057
+        width: 35
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2055
+        width: 48
+        height: 51
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_HitLt_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1975
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_HitLt_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1977
+        width: 47
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_HitLt_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1976
+        width: 45
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_HitLt_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1975
+        width: 32
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_HitLt_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1975
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_138
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1975
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_139
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1975
+        width: 35
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_140
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1975
+        width: 31
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_141
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1975
+        width: 30
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_142
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1975
+        width: 34
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_143
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2007
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_144
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1975
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_145
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2006
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_146
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1892
+        width: 45
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_147
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1892
+        width: 37
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_148
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1892
+        width: 33
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_149
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1892
+        width: 37
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_150
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1895
+        width: 47
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_151
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1811
+        width: 35
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_152
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1811
+        width: 30
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1817
+        width: 49
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_154
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1813
+        width: 45
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_155
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1816
+        width: 43
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1727
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1727
+        width: 44
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1727
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1727
+        width: 64
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1727
+        width: 65
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1727
+        width: 65
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1662
+        width: 55
+        height: 51
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1662
+        width: 65
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1662
+        width: 69
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1662
+        width: 74
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1662
+        width: 74
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_KnockDown_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1662
+        width: 75
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1565
+        width: 75
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1565
+        width: 75
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1564
+        width: 76
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1564
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1564
+        width: 76
+        height: 92
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1565
+        width: 75
+        height: 91
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1565
+        width: 75
+        height: 82
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_DownAtk_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1490
+        width: 75
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Block_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1489
+        width: 33
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1378
+        width: 146
+        height: 96
+      alignment: 9
+      pivot: {x: .239999995, y: .00999999978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_6
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1379
+        width: 108
+        height: 91
+      alignment: 9
+      pivot: {x: .0500000007, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1379
+        width: 58
+        height: 70
+      alignment: 9
+      pivot: {x: .660000026, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1379
+        width: 61
+        height: 71
+      alignment: 9
+      pivot: {x: .670000017, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_194
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1446
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1378
+        width: 140
+        height: 96
+      alignment: 9
+      pivot: {x: .194999993, y: .00999999978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1379
+        width: 113
+        height: 94
+      alignment: 9
+      pivot: {x: .0199999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1379
+        width: 71
+        height: 65
+      alignment: 9
+      pivot: {x: .129999995, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_OverSlash_8
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1379
+        width: 29
+        height: 66
+      alignment: 9
+      pivot: {x: .379999995, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1291
+        width: 34
+        height: 67
+      alignment: 9
+      pivot: {x: .280000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1291
+        width: 37
+        height: 69
+      alignment: 9
+      pivot: {x: .230000004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1291
+        width: 156
+        height: 68
+      alignment: 9
+      pivot: {x: .460000008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1291
+        width: 153
+        height: 68
+      alignment: 9
+      pivot: {x: .49000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_5
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1291
+        width: 149
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_6
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1291
+        width: 100
+        height: 68
+      alignment: 9
+      pivot: {x: .730000019, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_7
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1291
+        width: 77
+        height: 70
+      alignment: 9
+      pivot: {x: .829999983, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_SideSlash_8
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1291
+        width: 30
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_227
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1191
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_228
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1191
+        width: 58
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_229
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1191
+        width: 99
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_230
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1187
+        width: 103
+        height: 90
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_232
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1190
+        width: 117
+        height: 87
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_234
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1189
+        width: 133
+        height: 87
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_235
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1189
+        width: 129
+        height: 87
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_237
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1189
+        width: 131
+        height: 86
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_239
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1191
+        width: 71
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_240
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1189
+        width: 115
+        height: 85
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_242
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1191
+        width: 52
+        height: 68
+      alignment: 9
+      pivot: {x: .600000024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_243
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1191
+        width: 30
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_244
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1088
+        width: 58
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_245
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1088
+        width: 65
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_246
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1088
+        width: 116
+        height: 86
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_247
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1085
+        width: 126
+        height: 88
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_249
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1088
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_251
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1085
+        width: 115
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_252
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1084
+        width: 113
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_253
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1087
+        width: 64
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_254
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1087
+        width: 128
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_255
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1087
+        width: 127
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_257
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1087
+        width: 122
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_258
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1087
+        width: 85
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_259
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1087
+        width: 30
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_268
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1130
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_269
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1134
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_272
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1124
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_274
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1121
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_285
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1102
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_288
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1094
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_289
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1095
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_290
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1093
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_291
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 980
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_292
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 980
+        width: 35
+        height: 95
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_293
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 980
+        width: 44
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_294
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 980
+        width: 145
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_295
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 980
+        width: 147
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_296
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 980
+        width: 112
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_298
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 980
+        width: 108
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_300
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 980
+        width: 52
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_301
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 980
+        width: 29
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_303
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 979
+        width: 47
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_304
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 979
+        width: 54
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_305
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 979
+        width: 61
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_306
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 979
+        width: 61
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_307
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 979
+        width: 68
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_308
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 979
+        width: 68
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_309
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 979
+        width: 40
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_311
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 979
+        width: 54
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_312
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 979
+        width: 26
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_313
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 979
+        width: 47
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_314
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 979
+        width: 40
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_315
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 979
+        width: 26
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_316
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 979
+        width: 19
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_317
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 979
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_318
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 979
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_319
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 883
+        width: 53
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_320
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 883
+        width: 58
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_321
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 867
+        width: 97
+        height: 98
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_322
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 844
+        width: 89
+        height: 121
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_323
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 851
+        width: 115
+        height: 114
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_324
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 850
+        width: 117
+        height: 116
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_325
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 850
+        width: 115
+        height: 116
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_326
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 851
+        width: 126
+        height: 113
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_327
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 877
+        width: 98
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_328
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 867
+        width: 89
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_329
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 738
+        width: 125
+        height: 95
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_333
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 748
+        width: 53
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_334
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 748
+        width: 58
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_335
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 737
+        width: 121
+        height: 90
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_337
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 732
+        width: 111
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_338
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 732
+        width: 89
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_345
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 638
+        width: 37
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_346
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 638
+        width: 94
+        height: 77
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_347
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 638
+        width: 89
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_351
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 636
+        width: 91
+        height: 78
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_356
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 632
+        width: 86
+        height: 85
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_357
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 638
+        width: 52
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_358
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 638
+        width: 55
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_359
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 638
+        width: 31
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_360
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 638
+        width: 69
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_361
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 638
+        width: 78
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_362
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 638
+        width: 79
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_364
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 638
+        width: 51
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_365
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 638
+        width: 70
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_366
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 638
+        width: 124
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_367
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 638
+        width: 118
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_368
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 638
+        width: 104
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_369
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 638
+        width: 91
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 523
+        width: 81
+        height: 88
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_8
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 523
+        width: 71
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 512
+        width: 120
+        height: 104
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_11
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 518
+        width: 97
+        height: 91
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 523
+        width: 86
+        height: 80
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_12
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 515
+        width: 105
+        height: 99
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_15
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 519
+        width: 85
+        height: 84
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 525
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 525
+        width: 32
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 525
+        width: 43
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_6
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 525
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 525
+        width: 42
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 525
+        width: 45
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 513
+        width: 107
+        height: 100
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Death1_14
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 511
+        width: 110
+        height: 103
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_456
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 447
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_457
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 447
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_458
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 447
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_459
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 447
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_460
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 370
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_461
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 370
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_462
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 370
+        width: 33
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_463
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 370
+        width: 36
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_464
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 370
+        width: 58
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_465
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 370
+        width: 54
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_466
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 370
+        width: 52
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_467
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 370
+        width: 52
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_468
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 310
+        width: 52
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_469
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 310
+        width: 54
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_470
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 310
+        width: 54
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_471
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 310
+        width: 52
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_472
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 331
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_473
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 331
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_474
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 331
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_475
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 331
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_476
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 331
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_477
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 331
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_478
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 331
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_484
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 174
+        width: 103
+        height: 84
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_485
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 174
+        width: 79
+        height: 85
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_486
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 174
+        width: 117
+        height: 90
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_487
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 174
+        width: 163
+        height: 109
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_488
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 13
+        width: 181
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_492
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 175
+        width: 48
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_493
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 174
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_495
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 175
+        width: 52
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_496
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 175
+        width: 51
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_497
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 175
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_498
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 175
+        width: 43
+        height: 49
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_499
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 175
+        width: 41
+        height: 52
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_500
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 175
+        width: 43
+        height: 49
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_501
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 40
+        height: 53
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_502
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 175
+        width: 41
+        height: 52
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_503
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 175
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_504
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 40
+        height: 53
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_505
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 175
+        width: 40
+        height: 54
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_506
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 175
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_507
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 175
+        width: 40
+        height: 54
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_508
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 175
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_509
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 175
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_510
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 175
+        width: 43
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_512
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 210
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_534
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 13
+        width: 181
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_536
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 171
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_550
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 13
+        width: 181
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_561
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 13
+        width: 175
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_563
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 13
+        width: 181
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_569
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 13
+        width: 182
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_597
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 13
+        width: 181
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gideongraves_Description
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2439
+        width: 276
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
