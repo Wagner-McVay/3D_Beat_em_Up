@@ -72,10 +72,13 @@ public class Player : MonoBehaviour
                 transform.eulerAngles = new Vector3(0, angleMedian / arrowsPressed, 0);
             }
 
+
             if (Input.GetKey(KeyCode.Mouse0))
             {
-                animator.SetTrigger("Fire");
+                animator.SetTrigger("ConstFire");
             }
+            //else { animator.ResetTrigger("ConstFire"); }
+
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
                 animator.SetTrigger("Melee");
@@ -87,6 +90,12 @@ public class Player : MonoBehaviour
         {
             animator.SetTrigger("Fire");
         }
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            animator.SetTrigger("ConstFire");
+        }
+        else { animator.ResetTrigger("ConstFire"); }
+
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             animator.SetTrigger("Melee");

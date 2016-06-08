@@ -86,6 +86,7 @@ ModelImporter:
     7400010: Android_Melee
     7400012: Android_Shoot_Move
     7400014: Android_Move_Back
+    7400016: Android_Shoot_Idle_Loop
     9500000: //RootNode
     13700000: body
   materials:
@@ -830,6 +831,106 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Android_Shoot_Idle_Loop
+      takeName: Take 001
+      firstFrame: 119
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
