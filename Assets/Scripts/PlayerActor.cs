@@ -58,7 +58,7 @@ public class PlayerActor : MonoBehaviour
         {
             
             anim.SetTrigger("Attack");
-
+            //if ()
             
 
         }
@@ -175,7 +175,7 @@ public class PlayerActor : MonoBehaviour
 
     void Attack()
     {
-
+        EnemyActor Enemy_HP;
     }
 
     // if player attack hits an enemy

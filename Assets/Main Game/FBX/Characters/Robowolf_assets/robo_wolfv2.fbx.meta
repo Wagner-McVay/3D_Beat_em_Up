@@ -1,0 +1,1347 @@
+fileFormatVersion: 2
+guid: c7da1a6f33ada05488d6fee02e712f35
+timeCreated: 1464129100
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back_legL
+    100002: back_legR
+    100004: backankleL
+    100006: backankleR
+    100008: backfootL
+    100010: backfootR
+    100012: backhidL
+    100014: backhidR
+    100016: bottom_jaw
+    100018: bottomnurbsSquare1
+    100020: bottomnurbsSquare2
+    100022: bottomnurbsSquare2 1
+    100024: bottomnurbsSquare2 2
+    100026: bottomnurbsSquare3
+    100028: bottomnurbsSquare4
+    100030: Ctrl_shoulderbodybend
+    100032: Ctrl_Spinebend
+    100034: front_legL
+    100036: front_legR
+    100038: frontankleL
+    100040: frontankleR
+    100042: frontelbowL
+    100044: frontelbowR
+    100046: frontfootL
+    100048: frontfootR
+    100050: frontshoulderL
+    100052: frontshoulderR
+    100054: head
+    100056: hips
+    100058: ik_ctrl_backlegL
+    100060: ik_ctrl_backlegR
+    100062: ik_ctrl_frontlegL
+    100064: ik_ctrl_frontlegR
+    100066: ikHandle_backL
+    100068: ikHandle_backR
+    100070: ikHandle_frontL
+    100072: ikHandle_frontR
+    100074: jaw
+    100076: leftnurbsSquare1
+    100078: leftnurbsSquare2
+    100080: leftnurbsSquare2 1
+    100082: leftnurbsSquare2 2
+    100084: leftnurbsSquare3
+    100086: leftnurbsSquare4
+    100088: neck
+    100090: pCube1
+    100092: pCube2
+    100094: pCube3
+    100096: pCube4
+    100098: pCube5
+    100100: pCube6
+    100102: pCube7
+    100104: pCube8
+    100106: pCylinder1
+    100108: pCylinder2
+    100110: pCylinder3
+    100112: pCylinder4
+    100114: pCylinder5
+    100116: pCylinder6
+    100118: polySurface1
+    100120: polySurface10
+    100122: polySurface12
+    100124: polySurface2
+    100126: polySurface3
+    100128: polySurface4
+    100130: polySurface4 1
+    100132: polySurface5
+    100134: polySurface6
+    100136: polySurface7
+    100138: polySurface8
+    100140: polySurface9
+    100142: rightnurbsSquare1
+    100144: rightnurbsSquare2
+    100146: rightnurbsSquare2 1
+    100148: rightnurbsSquare2 2
+    100150: rightnurbsSquare3
+    100152: rightnurbsSquare4
+    100154: //RootNode
+    100156: robowolfSKELETON:polySurface1
+    100158: spine
+    100160: Tail
+    100162: Tail_hip_jnt
+    100164: topnurbsSquare1
+    100166: topnurbsSquare2
+    100168: topnurbsSquare2 1
+    100170: topnurbsSquare2 2
+    100172: topnurbsSquare3
+    100174: topnurbsSquare4
+    100176: transform1
+    100178: transform10
+    100180: transform11
+    100182: transform12
+    100184: transform13
+    100186: transform14
+    100188: transform15
+    100190: transform16
+    100192: transform17
+    100194: transform18
+    100196: transform19
+    100198: transform2
+    100200: transform20
+    100202: transform21
+    100204: transform22
+    100206: transform23
+    100208: transform24
+    100210: transform25
+    100212: transform29
+    100214: transform3
+    100216: transform30
+    100218: transform31
+    100220: transform33
+    100222: transform34
+    100224: transform4
+    100226: transform5
+    100228: transform6
+    100230: transform7
+    100232: transform8
+    100234: transform9
+    100236: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare1
+    100238: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare2
+    100240: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare2 1
+    100242: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare2 2
+    100244: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare3
+    100246: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare4
+    100248: WolfTank_DEATH_ANIM___Mysa:Ctrl_shoulderbodybend
+    100250: WolfTank_DEATH_ANIM___Mysa:Ctrl_Spinebend
+    100252: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_backlegL
+    100254: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_backlegR
+    100256: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_frontlegL
+    100258: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_frontlegR
+    100260: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare1
+    100262: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare2
+    100264: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare2 1
+    100266: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare2 2
+    100268: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare3
+    100270: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare4
+    100272: WolfTank_DEATH_ANIM___Mysa:pCube1
+    100274: WolfTank_DEATH_ANIM___Mysa:pCube2
+    100276: WolfTank_DEATH_ANIM___Mysa:pCube3
+    100278: WolfTank_DEATH_ANIM___Mysa:pCube4
+    100280: WolfTank_DEATH_ANIM___Mysa:pCube5
+    100282: WolfTank_DEATH_ANIM___Mysa:pCube6
+    100284: WolfTank_DEATH_ANIM___Mysa:pCube7
+    100286: WolfTank_DEATH_ANIM___Mysa:pCube8
+    100288: WolfTank_DEATH_ANIM___Mysa:pCylinder1
+    100290: WolfTank_DEATH_ANIM___Mysa:pCylinder2
+    100292: WolfTank_DEATH_ANIM___Mysa:pCylinder3
+    100294: WolfTank_DEATH_ANIM___Mysa:pCylinder4
+    100296: WolfTank_DEATH_ANIM___Mysa:pCylinder5
+    100298: WolfTank_DEATH_ANIM___Mysa:pCylinder6
+    100300: WolfTank_DEATH_ANIM___Mysa:polySurface1
+    100302: WolfTank_DEATH_ANIM___Mysa:polySurface10
+    100304: WolfTank_DEATH_ANIM___Mysa:polySurface12
+    100306: WolfTank_DEATH_ANIM___Mysa:polySurface2
+    100308: WolfTank_DEATH_ANIM___Mysa:polySurface3
+    100310: WolfTank_DEATH_ANIM___Mysa:polySurface4
+    100312: WolfTank_DEATH_ANIM___Mysa:polySurface4 1
+    100314: WolfTank_DEATH_ANIM___Mysa:polySurface5
+    100316: WolfTank_DEATH_ANIM___Mysa:polySurface6
+    100318: WolfTank_DEATH_ANIM___Mysa:polySurface7
+    100320: WolfTank_DEATH_ANIM___Mysa:polySurface8
+    100322: WolfTank_DEATH_ANIM___Mysa:polySurface9
+    100324: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare1
+    100326: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare2
+    100328: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare2 1
+    100330: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare2 2
+    100332: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare3
+    100334: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare4
+    100336: WolfTank_DEATH_ANIM___Mysa:Tail
+    100338: WolfTank_DEATH_ANIM___Mysa:Tail_hip_jnt
+    100340: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare1
+    100342: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare2
+    100344: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare2 1
+    100346: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare2 2
+    100348: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare3
+    100350: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare4
+    100352: WolfTank_DEATH_ANIM___Mysa:transform1
+    100354: WolfTank_DEATH_ANIM___Mysa:transform10
+    100356: WolfTank_DEATH_ANIM___Mysa:transform11
+    100358: WolfTank_DEATH_ANIM___Mysa:transform12
+    100360: WolfTank_DEATH_ANIM___Mysa:transform13
+    100362: WolfTank_DEATH_ANIM___Mysa:transform14
+    100364: WolfTank_DEATH_ANIM___Mysa:transform15
+    100366: WolfTank_DEATH_ANIM___Mysa:transform16
+    100368: WolfTank_DEATH_ANIM___Mysa:transform17
+    100370: WolfTank_DEATH_ANIM___Mysa:transform18
+    100372: WolfTank_DEATH_ANIM___Mysa:transform19
+    100374: WolfTank_DEATH_ANIM___Mysa:transform2
+    100376: WolfTank_DEATH_ANIM___Mysa:transform20
+    100378: WolfTank_DEATH_ANIM___Mysa:transform21
+    100380: WolfTank_DEATH_ANIM___Mysa:transform22
+    100382: WolfTank_DEATH_ANIM___Mysa:transform23
+    100384: WolfTank_DEATH_ANIM___Mysa:transform24
+    100386: WolfTank_DEATH_ANIM___Mysa:transform25
+    100388: WolfTank_DEATH_ANIM___Mysa:transform29
+    100390: WolfTank_DEATH_ANIM___Mysa:transform3
+    100392: WolfTank_DEATH_ANIM___Mysa:transform30
+    100394: WolfTank_DEATH_ANIM___Mysa:transform31
+    100396: WolfTank_DEATH_ANIM___Mysa:transform33
+    100398: WolfTank_DEATH_ANIM___Mysa:transform34
+    100400: WolfTank_DEATH_ANIM___Mysa:transform4
+    100402: WolfTank_DEATH_ANIM___Mysa:transform5
+    100404: WolfTank_DEATH_ANIM___Mysa:transform6
+    100406: WolfTank_DEATH_ANIM___Mysa:transform7
+    100408: WolfTank_DEATH_ANIM___Mysa:transform8
+    100410: WolfTank_DEATH_ANIM___Mysa:transform9
+    100412: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare1
+    100414: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare2
+    100416: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare2 1
+    100418: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare2 2
+    100420: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare3
+    100422: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare4
+    100424: WolfTank_IDALSHOOT_ANIM___Mysa:Ctrl_shoulderbodybend
+    100426: WolfTank_IDALSHOOT_ANIM___Mysa:Ctrl_Spinebend
+    100428: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_backlegL
+    100430: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_backlegR
+    100432: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_frontlegL
+    100434: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_frontlegR
+    100436: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare1
+    100438: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare2
+    100440: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare2 1
+    100442: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare2 2
+    100444: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare3
+    100446: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare4
+    100448: WolfTank_IDALSHOOT_ANIM___Mysa:pCube1
+    100450: WolfTank_IDALSHOOT_ANIM___Mysa:pCube2
+    100452: WolfTank_IDALSHOOT_ANIM___Mysa:pCube3
+    100454: WolfTank_IDALSHOOT_ANIM___Mysa:pCube4
+    100456: WolfTank_IDALSHOOT_ANIM___Mysa:pCube5
+    100458: WolfTank_IDALSHOOT_ANIM___Mysa:pCube6
+    100460: WolfTank_IDALSHOOT_ANIM___Mysa:pCube7
+    100462: WolfTank_IDALSHOOT_ANIM___Mysa:pCube8
+    100464: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder1
+    100466: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder2
+    100468: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder3
+    100470: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder4
+    100472: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder5
+    100474: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder6
+    100476: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface1
+    100478: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface10
+    100480: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface12
+    100482: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface2
+    100484: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface3
+    100486: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface4
+    100488: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface4 1
+    100490: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface5
+    100492: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface6
+    100494: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface7
+    100496: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface8
+    100498: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface9
+    100500: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare1
+    100502: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare2
+    100504: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare2 1
+    100506: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare2 2
+    100508: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare3
+    100510: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare4
+    100512: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare1
+    100514: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare2
+    100516: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare2 1
+    100518: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare2 2
+    100520: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare3
+    100522: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare4
+    100524: WolfTank_IDALSHOOT_ANIM___Mysa:transform1
+    100526: WolfTank_IDALSHOOT_ANIM___Mysa:transform10
+    100528: WolfTank_IDALSHOOT_ANIM___Mysa:transform11
+    100530: WolfTank_IDALSHOOT_ANIM___Mysa:transform12
+    100532: WolfTank_IDALSHOOT_ANIM___Mysa:transform13
+    100534: WolfTank_IDALSHOOT_ANIM___Mysa:transform14
+    100536: WolfTank_IDALSHOOT_ANIM___Mysa:transform15
+    100538: WolfTank_IDALSHOOT_ANIM___Mysa:transform16
+    100540: WolfTank_IDALSHOOT_ANIM___Mysa:transform17
+    100542: WolfTank_IDALSHOOT_ANIM___Mysa:transform18
+    100544: WolfTank_IDALSHOOT_ANIM___Mysa:transform19
+    100546: WolfTank_IDALSHOOT_ANIM___Mysa:transform2
+    100548: WolfTank_IDALSHOOT_ANIM___Mysa:transform20
+    100550: WolfTank_IDALSHOOT_ANIM___Mysa:transform21
+    100552: WolfTank_IDALSHOOT_ANIM___Mysa:transform22
+    100554: WolfTank_IDALSHOOT_ANIM___Mysa:transform23
+    100556: WolfTank_IDALSHOOT_ANIM___Mysa:transform24
+    100558: WolfTank_IDALSHOOT_ANIM___Mysa:transform25
+    100560: WolfTank_IDALSHOOT_ANIM___Mysa:transform29
+    100562: WolfTank_IDALSHOOT_ANIM___Mysa:transform3
+    100564: WolfTank_IDALSHOOT_ANIM___Mysa:transform30
+    100566: WolfTank_IDALSHOOT_ANIM___Mysa:transform31
+    100568: WolfTank_IDALSHOOT_ANIM___Mysa:transform33
+    100570: WolfTank_IDALSHOOT_ANIM___Mysa:transform34
+    100572: WolfTank_IDALSHOOT_ANIM___Mysa:transform4
+    100574: WolfTank_IDALSHOOT_ANIM___Mysa:transform5
+    100576: WolfTank_IDALSHOOT_ANIM___Mysa:transform6
+    100578: WolfTank_IDALSHOOT_ANIM___Mysa:transform7
+    100580: WolfTank_IDALSHOOT_ANIM___Mysa:transform8
+    100582: WolfTank_IDALSHOOT_ANIM___Mysa:transform9
+    100584: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare1
+    100586: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare2
+    100588: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare2 1
+    100590: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare2 2
+    100592: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare3
+    100594: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare4
+    100596: WolfTank_MELEE_ANIM___Mysa1:Ctrl_shoulderbodybend
+    100598: WolfTank_MELEE_ANIM___Mysa1:Ctrl_Spinebend
+    100600: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_backlegL
+    100602: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_backlegR
+    100604: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_frontlegL
+    100606: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_frontlegR
+    100608: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare1
+    100610: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare2
+    100612: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare2 1
+    100614: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare2 2
+    100616: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare3
+    100618: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare4
+    100620: WolfTank_MELEE_ANIM___Mysa1:pCube1
+    100622: WolfTank_MELEE_ANIM___Mysa1:pCube2
+    100624: WolfTank_MELEE_ANIM___Mysa1:pCube3
+    100626: WolfTank_MELEE_ANIM___Mysa1:pCube4
+    100628: WolfTank_MELEE_ANIM___Mysa1:pCube5
+    100630: WolfTank_MELEE_ANIM___Mysa1:pCube6
+    100632: WolfTank_MELEE_ANIM___Mysa1:pCube7
+    100634: WolfTank_MELEE_ANIM___Mysa1:pCube8
+    100636: WolfTank_MELEE_ANIM___Mysa1:pCylinder1
+    100638: WolfTank_MELEE_ANIM___Mysa1:pCylinder2
+    100640: WolfTank_MELEE_ANIM___Mysa1:pCylinder3
+    100642: WolfTank_MELEE_ANIM___Mysa1:pCylinder4
+    100644: WolfTank_MELEE_ANIM___Mysa1:pCylinder5
+    100646: WolfTank_MELEE_ANIM___Mysa1:pCylinder6
+    100648: WolfTank_MELEE_ANIM___Mysa1:polySurface1
+    100650: WolfTank_MELEE_ANIM___Mysa1:polySurface10
+    100652: WolfTank_MELEE_ANIM___Mysa1:polySurface12
+    100654: WolfTank_MELEE_ANIM___Mysa1:polySurface2
+    100656: WolfTank_MELEE_ANIM___Mysa1:polySurface3
+    100658: WolfTank_MELEE_ANIM___Mysa1:polySurface4
+    100660: WolfTank_MELEE_ANIM___Mysa1:polySurface4 1
+    100662: WolfTank_MELEE_ANIM___Mysa1:polySurface5
+    100664: WolfTank_MELEE_ANIM___Mysa1:polySurface6
+    100666: WolfTank_MELEE_ANIM___Mysa1:polySurface7
+    100668: WolfTank_MELEE_ANIM___Mysa1:polySurface8
+    100670: WolfTank_MELEE_ANIM___Mysa1:polySurface9
+    100672: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare1
+    100674: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare2
+    100676: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare2 1
+    100678: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare2 2
+    100680: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare3
+    100682: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare4
+    100684: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare1
+    100686: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare2
+    100688: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare2 1
+    100690: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare2 2
+    100692: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare3
+    100694: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare4
+    100696: WolfTank_MELEE_ANIM___Mysa1:transform1
+    100698: WolfTank_MELEE_ANIM___Mysa1:transform10
+    100700: WolfTank_MELEE_ANIM___Mysa1:transform11
+    100702: WolfTank_MELEE_ANIM___Mysa1:transform12
+    100704: WolfTank_MELEE_ANIM___Mysa1:transform13
+    100706: WolfTank_MELEE_ANIM___Mysa1:transform14
+    100708: WolfTank_MELEE_ANIM___Mysa1:transform15
+    100710: WolfTank_MELEE_ANIM___Mysa1:transform16
+    100712: WolfTank_MELEE_ANIM___Mysa1:transform17
+    100714: WolfTank_MELEE_ANIM___Mysa1:transform18
+    100716: WolfTank_MELEE_ANIM___Mysa1:transform19
+    100718: WolfTank_MELEE_ANIM___Mysa1:transform2
+    100720: WolfTank_MELEE_ANIM___Mysa1:transform20
+    100722: WolfTank_MELEE_ANIM___Mysa1:transform21
+    100724: WolfTank_MELEE_ANIM___Mysa1:transform22
+    100726: WolfTank_MELEE_ANIM___Mysa1:transform23
+    100728: WolfTank_MELEE_ANIM___Mysa1:transform24
+    100730: WolfTank_MELEE_ANIM___Mysa1:transform25
+    100732: WolfTank_MELEE_ANIM___Mysa1:transform29
+    100734: WolfTank_MELEE_ANIM___Mysa1:transform3
+    100736: WolfTank_MELEE_ANIM___Mysa1:transform30
+    100738: WolfTank_MELEE_ANIM___Mysa1:transform31
+    100740: WolfTank_MELEE_ANIM___Mysa1:transform33
+    100742: WolfTank_MELEE_ANIM___Mysa1:transform34
+    100744: WolfTank_MELEE_ANIM___Mysa1:transform4
+    100746: WolfTank_MELEE_ANIM___Mysa1:transform5
+    100748: WolfTank_MELEE_ANIM___Mysa1:transform6
+    100750: WolfTank_MELEE_ANIM___Mysa1:transform7
+    100752: WolfTank_MELEE_ANIM___Mysa1:transform8
+    100754: WolfTank_MELEE_ANIM___Mysa1:transform9
+    100756: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare1
+    100758: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare2
+    100760: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare2 1
+    100762: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare2 2
+    100764: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare3
+    100766: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare4
+    100768: WolfTank_MELEE_ANIM___Mysa:Ctrl_shoulderbodybend
+    100770: WolfTank_MELEE_ANIM___Mysa:Ctrl_Spinebend
+    100772: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_backlegL
+    100774: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_backlegR
+    100776: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_frontlegL
+    100778: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_frontlegR
+    100780: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare1
+    100782: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare2
+    100784: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare2 1
+    100786: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare2 2
+    100788: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare3
+    100790: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare4
+    100792: WolfTank_MELEE_ANIM___Mysa:pCube1
+    100794: WolfTank_MELEE_ANIM___Mysa:pCube2
+    100796: WolfTank_MELEE_ANIM___Mysa:pCube3
+    100798: WolfTank_MELEE_ANIM___Mysa:pCube4
+    100800: WolfTank_MELEE_ANIM___Mysa:pCube5
+    100802: WolfTank_MELEE_ANIM___Mysa:pCube6
+    100804: WolfTank_MELEE_ANIM___Mysa:pCube7
+    100806: WolfTank_MELEE_ANIM___Mysa:pCube8
+    100808: WolfTank_MELEE_ANIM___Mysa:pCylinder1
+    100810: WolfTank_MELEE_ANIM___Mysa:pCylinder2
+    100812: WolfTank_MELEE_ANIM___Mysa:pCylinder3
+    100814: WolfTank_MELEE_ANIM___Mysa:pCylinder4
+    100816: WolfTank_MELEE_ANIM___Mysa:pCylinder5
+    100818: WolfTank_MELEE_ANIM___Mysa:pCylinder6
+    100820: WolfTank_MELEE_ANIM___Mysa:polySurface1
+    100822: WolfTank_MELEE_ANIM___Mysa:polySurface10
+    100824: WolfTank_MELEE_ANIM___Mysa:polySurface12
+    100826: WolfTank_MELEE_ANIM___Mysa:polySurface2
+    100828: WolfTank_MELEE_ANIM___Mysa:polySurface3
+    100830: WolfTank_MELEE_ANIM___Mysa:polySurface4
+    100832: WolfTank_MELEE_ANIM___Mysa:polySurface4 1
+    100834: WolfTank_MELEE_ANIM___Mysa:polySurface5
+    100836: WolfTank_MELEE_ANIM___Mysa:polySurface6
+    100838: WolfTank_MELEE_ANIM___Mysa:polySurface7
+    100840: WolfTank_MELEE_ANIM___Mysa:polySurface8
+    100842: WolfTank_MELEE_ANIM___Mysa:polySurface9
+    100844: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare1
+    100846: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare2
+    100848: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare2 1
+    100850: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare2 2
+    100852: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare3
+    100854: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare4
+    100856: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare1
+    100858: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare2
+    100860: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare2 1
+    100862: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare2 2
+    100864: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare3
+    100866: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare4
+    100868: WolfTank_MELEE_ANIM___Mysa:transform1
+    100870: WolfTank_MELEE_ANIM___Mysa:transform10
+    100872: WolfTank_MELEE_ANIM___Mysa:transform11
+    100874: WolfTank_MELEE_ANIM___Mysa:transform12
+    100876: WolfTank_MELEE_ANIM___Mysa:transform13
+    100878: WolfTank_MELEE_ANIM___Mysa:transform14
+    100880: WolfTank_MELEE_ANIM___Mysa:transform15
+    100882: WolfTank_MELEE_ANIM___Mysa:transform16
+    100884: WolfTank_MELEE_ANIM___Mysa:transform17
+    100886: WolfTank_MELEE_ANIM___Mysa:transform18
+    100888: WolfTank_MELEE_ANIM___Mysa:transform19
+    100890: WolfTank_MELEE_ANIM___Mysa:transform2
+    100892: WolfTank_MELEE_ANIM___Mysa:transform20
+    100894: WolfTank_MELEE_ANIM___Mysa:transform21
+    100896: WolfTank_MELEE_ANIM___Mysa:transform22
+    100898: WolfTank_MELEE_ANIM___Mysa:transform23
+    100900: WolfTank_MELEE_ANIM___Mysa:transform24
+    100902: WolfTank_MELEE_ANIM___Mysa:transform25
+    100904: WolfTank_MELEE_ANIM___Mysa:transform29
+    100906: WolfTank_MELEE_ANIM___Mysa:transform3
+    100908: WolfTank_MELEE_ANIM___Mysa:transform30
+    100910: WolfTank_MELEE_ANIM___Mysa:transform31
+    100912: WolfTank_MELEE_ANIM___Mysa:transform33
+    100914: WolfTank_MELEE_ANIM___Mysa:transform34
+    100916: WolfTank_MELEE_ANIM___Mysa:transform4
+    100918: WolfTank_MELEE_ANIM___Mysa:transform5
+    100920: WolfTank_MELEE_ANIM___Mysa:transform6
+    100922: WolfTank_MELEE_ANIM___Mysa:transform7
+    100924: WolfTank_MELEE_ANIM___Mysa:transform8
+    100926: WolfTank_MELEE_ANIM___Mysa:transform9
+    100928: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare1
+    100930: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare2
+    100932: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare2 1
+    100934: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare2 2
+    100936: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare3
+    100938: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare4
+    100940: WolfTank_MOVE_ANIM___Mysa:Ctrl_shoulderbodybend
+    100942: WolfTank_MOVE_ANIM___Mysa:Ctrl_Spinebend
+    100944: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_backlegL
+    100946: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_backlegR
+    100948: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_frontlegL
+    100950: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_frontlegR
+    100952: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare1
+    100954: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare2
+    100956: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare2 1
+    100958: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare2 2
+    100960: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare3
+    100962: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare4
+    100964: WolfTank_MOVE_ANIM___Mysa:pCube1
+    100966: WolfTank_MOVE_ANIM___Mysa:pCube2
+    100968: WolfTank_MOVE_ANIM___Mysa:pCube3
+    100970: WolfTank_MOVE_ANIM___Mysa:pCube4
+    100972: WolfTank_MOVE_ANIM___Mysa:pCube5
+    100974: WolfTank_MOVE_ANIM___Mysa:pCube6
+    100976: WolfTank_MOVE_ANIM___Mysa:pCube7
+    100978: WolfTank_MOVE_ANIM___Mysa:pCube8
+    100980: WolfTank_MOVE_ANIM___Mysa:pCylinder1
+    100982: WolfTank_MOVE_ANIM___Mysa:pCylinder2
+    100984: WolfTank_MOVE_ANIM___Mysa:pCylinder3
+    100986: WolfTank_MOVE_ANIM___Mysa:pCylinder4
+    100988: WolfTank_MOVE_ANIM___Mysa:pCylinder5
+    100990: WolfTank_MOVE_ANIM___Mysa:pCylinder6
+    100992: WolfTank_MOVE_ANIM___Mysa:polySurface1
+    100994: WolfTank_MOVE_ANIM___Mysa:polySurface10
+    100996: WolfTank_MOVE_ANIM___Mysa:polySurface12
+    100998: WolfTank_MOVE_ANIM___Mysa:polySurface2
+    101000: WolfTank_MOVE_ANIM___Mysa:polySurface3
+    101002: WolfTank_MOVE_ANIM___Mysa:polySurface4
+    101004: WolfTank_MOVE_ANIM___Mysa:polySurface4 1
+    101006: WolfTank_MOVE_ANIM___Mysa:polySurface5
+    101008: WolfTank_MOVE_ANIM___Mysa:polySurface6
+    101010: WolfTank_MOVE_ANIM___Mysa:polySurface7
+    101012: WolfTank_MOVE_ANIM___Mysa:polySurface8
+    101014: WolfTank_MOVE_ANIM___Mysa:polySurface9
+    101016: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare1
+    101018: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare2
+    101020: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare2 1
+    101022: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare2 2
+    101024: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare3
+    101026: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare4
+    101028: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare1
+    101030: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare2
+    101032: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare2 1
+    101034: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare2 2
+    101036: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare3
+    101038: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare4
+    101040: WolfTank_MOVE_ANIM___Mysa:transform1
+    101042: WolfTank_MOVE_ANIM___Mysa:transform10
+    101044: WolfTank_MOVE_ANIM___Mysa:transform11
+    101046: WolfTank_MOVE_ANIM___Mysa:transform12
+    101048: WolfTank_MOVE_ANIM___Mysa:transform13
+    101050: WolfTank_MOVE_ANIM___Mysa:transform14
+    101052: WolfTank_MOVE_ANIM___Mysa:transform15
+    101054: WolfTank_MOVE_ANIM___Mysa:transform16
+    101056: WolfTank_MOVE_ANIM___Mysa:transform17
+    101058: WolfTank_MOVE_ANIM___Mysa:transform18
+    101060: WolfTank_MOVE_ANIM___Mysa:transform19
+    101062: WolfTank_MOVE_ANIM___Mysa:transform2
+    101064: WolfTank_MOVE_ANIM___Mysa:transform20
+    101066: WolfTank_MOVE_ANIM___Mysa:transform21
+    101068: WolfTank_MOVE_ANIM___Mysa:transform22
+    101070: WolfTank_MOVE_ANIM___Mysa:transform23
+    101072: WolfTank_MOVE_ANIM___Mysa:transform24
+    101074: WolfTank_MOVE_ANIM___Mysa:transform25
+    101076: WolfTank_MOVE_ANIM___Mysa:transform29
+    101078: WolfTank_MOVE_ANIM___Mysa:transform3
+    101080: WolfTank_MOVE_ANIM___Mysa:transform30
+    101082: WolfTank_MOVE_ANIM___Mysa:transform31
+    101084: WolfTank_MOVE_ANIM___Mysa:transform33
+    101086: WolfTank_MOVE_ANIM___Mysa:transform34
+    101088: WolfTank_MOVE_ANIM___Mysa:transform4
+    101090: WolfTank_MOVE_ANIM___Mysa:transform5
+    101092: WolfTank_MOVE_ANIM___Mysa:transform6
+    101094: WolfTank_MOVE_ANIM___Mysa:transform7
+    101096: WolfTank_MOVE_ANIM___Mysa:transform8
+    101098: WolfTank_MOVE_ANIM___Mysa:transform9
+    101100: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare1
+    101102: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare2
+    101104: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare2 1
+    101106: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare2 2
+    101108: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare3
+    101110: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare4
+    101112: WolfTank_WALK_ANIM___Mysa:Ctrl_shoulderbodybend
+    101114: WolfTank_WALK_ANIM___Mysa:Ctrl_Spinebend
+    101116: WolfTank_WALK_ANIM___Mysa:ik_ctrl_backlegL
+    101118: WolfTank_WALK_ANIM___Mysa:ik_ctrl_backlegR
+    101120: WolfTank_WALK_ANIM___Mysa:ik_ctrl_frontlegL
+    101122: WolfTank_WALK_ANIM___Mysa:ik_ctrl_frontlegR
+    101124: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare1
+    101126: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare2
+    101128: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare2 1
+    101130: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare2 2
+    101132: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare3
+    101134: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare4
+    101136: WolfTank_WALK_ANIM___Mysa:pCube1
+    101138: WolfTank_WALK_ANIM___Mysa:pCube2
+    101140: WolfTank_WALK_ANIM___Mysa:pCube3
+    101142: WolfTank_WALK_ANIM___Mysa:pCube4
+    101144: WolfTank_WALK_ANIM___Mysa:pCube5
+    101146: WolfTank_WALK_ANIM___Mysa:pCube6
+    101148: WolfTank_WALK_ANIM___Mysa:pCube7
+    101150: WolfTank_WALK_ANIM___Mysa:pCube8
+    101152: WolfTank_WALK_ANIM___Mysa:pCylinder1
+    101154: WolfTank_WALK_ANIM___Mysa:pCylinder2
+    101156: WolfTank_WALK_ANIM___Mysa:pCylinder3
+    101158: WolfTank_WALK_ANIM___Mysa:pCylinder4
+    101160: WolfTank_WALK_ANIM___Mysa:pCylinder5
+    101162: WolfTank_WALK_ANIM___Mysa:pCylinder6
+    101164: WolfTank_WALK_ANIM___Mysa:polySurface1
+    101166: WolfTank_WALK_ANIM___Mysa:polySurface10
+    101168: WolfTank_WALK_ANIM___Mysa:polySurface12
+    101170: WolfTank_WALK_ANIM___Mysa:polySurface2
+    101172: WolfTank_WALK_ANIM___Mysa:polySurface3
+    101174: WolfTank_WALK_ANIM___Mysa:polySurface4
+    101176: WolfTank_WALK_ANIM___Mysa:polySurface4 1
+    101178: WolfTank_WALK_ANIM___Mysa:polySurface5
+    101180: WolfTank_WALK_ANIM___Mysa:polySurface6
+    101182: WolfTank_WALK_ANIM___Mysa:polySurface7
+    101184: WolfTank_WALK_ANIM___Mysa:polySurface8
+    101186: WolfTank_WALK_ANIM___Mysa:polySurface9
+    101188: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare1
+    101190: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare2
+    101192: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare2 1
+    101194: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare2 2
+    101196: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare3
+    101198: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare4
+    101200: WolfTank_WALK_ANIM___Mysa:topnurbsSquare1
+    101202: WolfTank_WALK_ANIM___Mysa:topnurbsSquare2
+    101204: WolfTank_WALK_ANIM___Mysa:topnurbsSquare2 1
+    101206: WolfTank_WALK_ANIM___Mysa:topnurbsSquare2 2
+    101208: WolfTank_WALK_ANIM___Mysa:topnurbsSquare3
+    101210: WolfTank_WALK_ANIM___Mysa:topnurbsSquare4
+    101212: WolfTank_WALK_ANIM___Mysa:transform1
+    101214: WolfTank_WALK_ANIM___Mysa:transform10
+    101216: WolfTank_WALK_ANIM___Mysa:transform11
+    101218: WolfTank_WALK_ANIM___Mysa:transform12
+    101220: WolfTank_WALK_ANIM___Mysa:transform13
+    101222: WolfTank_WALK_ANIM___Mysa:transform14
+    101224: WolfTank_WALK_ANIM___Mysa:transform15
+    101226: WolfTank_WALK_ANIM___Mysa:transform16
+    101228: WolfTank_WALK_ANIM___Mysa:transform17
+    101230: WolfTank_WALK_ANIM___Mysa:transform18
+    101232: WolfTank_WALK_ANIM___Mysa:transform19
+    101234: WolfTank_WALK_ANIM___Mysa:transform2
+    101236: WolfTank_WALK_ANIM___Mysa:transform20
+    101238: WolfTank_WALK_ANIM___Mysa:transform21
+    101240: WolfTank_WALK_ANIM___Mysa:transform22
+    101242: WolfTank_WALK_ANIM___Mysa:transform23
+    101244: WolfTank_WALK_ANIM___Mysa:transform24
+    101246: WolfTank_WALK_ANIM___Mysa:transform25
+    101248: WolfTank_WALK_ANIM___Mysa:transform29
+    101250: WolfTank_WALK_ANIM___Mysa:transform3
+    101252: WolfTank_WALK_ANIM___Mysa:transform30
+    101254: WolfTank_WALK_ANIM___Mysa:transform31
+    101256: WolfTank_WALK_ANIM___Mysa:transform33
+    101258: WolfTank_WALK_ANIM___Mysa:transform34
+    101260: WolfTank_WALK_ANIM___Mysa:transform4
+    101262: WolfTank_WALK_ANIM___Mysa:transform5
+    101264: WolfTank_WALK_ANIM___Mysa:transform6
+    101266: WolfTank_WALK_ANIM___Mysa:transform7
+    101268: WolfTank_WALK_ANIM___Mysa:transform8
+    101270: WolfTank_WALK_ANIM___Mysa:transform9
+    400000: back_legL
+    400002: back_legR
+    400004: backankleL
+    400006: backankleR
+    400008: backfootL
+    400010: backfootR
+    400012: backhidL
+    400014: backhidR
+    400016: bottom_jaw
+    400018: bottomnurbsSquare1
+    400020: bottomnurbsSquare2
+    400022: bottomnurbsSquare2 1
+    400024: bottomnurbsSquare2 2
+    400026: bottomnurbsSquare3
+    400028: bottomnurbsSquare4
+    400030: Ctrl_shoulderbodybend
+    400032: Ctrl_Spinebend
+    400034: front_legL
+    400036: front_legR
+    400038: frontankleL
+    400040: frontankleR
+    400042: frontelbowL
+    400044: frontelbowR
+    400046: frontfootL
+    400048: frontfootR
+    400050: frontshoulderL
+    400052: frontshoulderR
+    400054: head
+    400056: hips
+    400058: ik_ctrl_backlegL
+    400060: ik_ctrl_backlegR
+    400062: ik_ctrl_frontlegL
+    400064: ik_ctrl_frontlegR
+    400066: ikHandle_backL
+    400068: ikHandle_backR
+    400070: ikHandle_frontL
+    400072: ikHandle_frontR
+    400074: jaw
+    400076: leftnurbsSquare1
+    400078: leftnurbsSquare2
+    400080: leftnurbsSquare2 1
+    400082: leftnurbsSquare2 2
+    400084: leftnurbsSquare3
+    400086: leftnurbsSquare4
+    400088: neck
+    400090: pCube1
+    400092: pCube2
+    400094: pCube3
+    400096: pCube4
+    400098: pCube5
+    400100: pCube6
+    400102: pCube7
+    400104: pCube8
+    400106: pCylinder1
+    400108: pCylinder2
+    400110: pCylinder3
+    400112: pCylinder4
+    400114: pCylinder5
+    400116: pCylinder6
+    400118: polySurface1
+    400120: polySurface10
+    400122: polySurface12
+    400124: polySurface2
+    400126: polySurface3
+    400128: polySurface4
+    400130: polySurface4 1
+    400132: polySurface5
+    400134: polySurface6
+    400136: polySurface7
+    400138: polySurface8
+    400140: polySurface9
+    400142: rightnurbsSquare1
+    400144: rightnurbsSquare2
+    400146: rightnurbsSquare2 1
+    400148: rightnurbsSquare2 2
+    400150: rightnurbsSquare3
+    400152: rightnurbsSquare4
+    400154: //RootNode
+    400156: robowolfSKELETON:polySurface1
+    400158: spine
+    400160: Tail
+    400162: Tail_hip_jnt
+    400164: topnurbsSquare1
+    400166: topnurbsSquare2
+    400168: topnurbsSquare2 1
+    400170: topnurbsSquare2 2
+    400172: topnurbsSquare3
+    400174: topnurbsSquare4
+    400176: transform1
+    400178: transform10
+    400180: transform11
+    400182: transform12
+    400184: transform13
+    400186: transform14
+    400188: transform15
+    400190: transform16
+    400192: transform17
+    400194: transform18
+    400196: transform19
+    400198: transform2
+    400200: transform20
+    400202: transform21
+    400204: transform22
+    400206: transform23
+    400208: transform24
+    400210: transform25
+    400212: transform29
+    400214: transform3
+    400216: transform30
+    400218: transform31
+    400220: transform33
+    400222: transform34
+    400224: transform4
+    400226: transform5
+    400228: transform6
+    400230: transform7
+    400232: transform8
+    400234: transform9
+    400236: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare1
+    400238: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare2
+    400240: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare2 1
+    400242: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare2 2
+    400244: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare3
+    400246: WolfTank_DEATH_ANIM___Mysa:bottomnurbsSquare4
+    400248: WolfTank_DEATH_ANIM___Mysa:Ctrl_shoulderbodybend
+    400250: WolfTank_DEATH_ANIM___Mysa:Ctrl_Spinebend
+    400252: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_backlegL
+    400254: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_backlegR
+    400256: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_frontlegL
+    400258: WolfTank_DEATH_ANIM___Mysa:ik_ctrl_frontlegR
+    400260: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare1
+    400262: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare2
+    400264: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare2 1
+    400266: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare2 2
+    400268: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare3
+    400270: WolfTank_DEATH_ANIM___Mysa:leftnurbsSquare4
+    400272: WolfTank_DEATH_ANIM___Mysa:pCube1
+    400274: WolfTank_DEATH_ANIM___Mysa:pCube2
+    400276: WolfTank_DEATH_ANIM___Mysa:pCube3
+    400278: WolfTank_DEATH_ANIM___Mysa:pCube4
+    400280: WolfTank_DEATH_ANIM___Mysa:pCube5
+    400282: WolfTank_DEATH_ANIM___Mysa:pCube6
+    400284: WolfTank_DEATH_ANIM___Mysa:pCube7
+    400286: WolfTank_DEATH_ANIM___Mysa:pCube8
+    400288: WolfTank_DEATH_ANIM___Mysa:pCylinder1
+    400290: WolfTank_DEATH_ANIM___Mysa:pCylinder2
+    400292: WolfTank_DEATH_ANIM___Mysa:pCylinder3
+    400294: WolfTank_DEATH_ANIM___Mysa:pCylinder4
+    400296: WolfTank_DEATH_ANIM___Mysa:pCylinder5
+    400298: WolfTank_DEATH_ANIM___Mysa:pCylinder6
+    400300: WolfTank_DEATH_ANIM___Mysa:polySurface1
+    400302: WolfTank_DEATH_ANIM___Mysa:polySurface10
+    400304: WolfTank_DEATH_ANIM___Mysa:polySurface12
+    400306: WolfTank_DEATH_ANIM___Mysa:polySurface2
+    400308: WolfTank_DEATH_ANIM___Mysa:polySurface3
+    400310: WolfTank_DEATH_ANIM___Mysa:polySurface4
+    400312: WolfTank_DEATH_ANIM___Mysa:polySurface4 1
+    400314: WolfTank_DEATH_ANIM___Mysa:polySurface5
+    400316: WolfTank_DEATH_ANIM___Mysa:polySurface6
+    400318: WolfTank_DEATH_ANIM___Mysa:polySurface7
+    400320: WolfTank_DEATH_ANIM___Mysa:polySurface8
+    400322: WolfTank_DEATH_ANIM___Mysa:polySurface9
+    400324: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare1
+    400326: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare2
+    400328: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare2 1
+    400330: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare2 2
+    400332: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare3
+    400334: WolfTank_DEATH_ANIM___Mysa:rightnurbsSquare4
+    400336: WolfTank_DEATH_ANIM___Mysa:Tail
+    400338: WolfTank_DEATH_ANIM___Mysa:Tail_hip_jnt
+    400340: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare1
+    400342: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare2
+    400344: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare2 1
+    400346: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare2 2
+    400348: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare3
+    400350: WolfTank_DEATH_ANIM___Mysa:topnurbsSquare4
+    400352: WolfTank_DEATH_ANIM___Mysa:transform1
+    400354: WolfTank_DEATH_ANIM___Mysa:transform10
+    400356: WolfTank_DEATH_ANIM___Mysa:transform11
+    400358: WolfTank_DEATH_ANIM___Mysa:transform12
+    400360: WolfTank_DEATH_ANIM___Mysa:transform13
+    400362: WolfTank_DEATH_ANIM___Mysa:transform14
+    400364: WolfTank_DEATH_ANIM___Mysa:transform15
+    400366: WolfTank_DEATH_ANIM___Mysa:transform16
+    400368: WolfTank_DEATH_ANIM___Mysa:transform17
+    400370: WolfTank_DEATH_ANIM___Mysa:transform18
+    400372: WolfTank_DEATH_ANIM___Mysa:transform19
+    400374: WolfTank_DEATH_ANIM___Mysa:transform2
+    400376: WolfTank_DEATH_ANIM___Mysa:transform20
+    400378: WolfTank_DEATH_ANIM___Mysa:transform21
+    400380: WolfTank_DEATH_ANIM___Mysa:transform22
+    400382: WolfTank_DEATH_ANIM___Mysa:transform23
+    400384: WolfTank_DEATH_ANIM___Mysa:transform24
+    400386: WolfTank_DEATH_ANIM___Mysa:transform25
+    400388: WolfTank_DEATH_ANIM___Mysa:transform29
+    400390: WolfTank_DEATH_ANIM___Mysa:transform3
+    400392: WolfTank_DEATH_ANIM___Mysa:transform30
+    400394: WolfTank_DEATH_ANIM___Mysa:transform31
+    400396: WolfTank_DEATH_ANIM___Mysa:transform33
+    400398: WolfTank_DEATH_ANIM___Mysa:transform34
+    400400: WolfTank_DEATH_ANIM___Mysa:transform4
+    400402: WolfTank_DEATH_ANIM___Mysa:transform5
+    400404: WolfTank_DEATH_ANIM___Mysa:transform6
+    400406: WolfTank_DEATH_ANIM___Mysa:transform7
+    400408: WolfTank_DEATH_ANIM___Mysa:transform8
+    400410: WolfTank_DEATH_ANIM___Mysa:transform9
+    400412: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare1
+    400414: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare2
+    400416: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare2 1
+    400418: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare2 2
+    400420: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare3
+    400422: WolfTank_IDALSHOOT_ANIM___Mysa:bottomnurbsSquare4
+    400424: WolfTank_IDALSHOOT_ANIM___Mysa:Ctrl_shoulderbodybend
+    400426: WolfTank_IDALSHOOT_ANIM___Mysa:Ctrl_Spinebend
+    400428: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_backlegL
+    400430: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_backlegR
+    400432: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_frontlegL
+    400434: WolfTank_IDALSHOOT_ANIM___Mysa:ik_ctrl_frontlegR
+    400436: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare1
+    400438: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare2
+    400440: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare2 1
+    400442: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare2 2
+    400444: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare3
+    400446: WolfTank_IDALSHOOT_ANIM___Mysa:leftnurbsSquare4
+    400448: WolfTank_IDALSHOOT_ANIM___Mysa:pCube1
+    400450: WolfTank_IDALSHOOT_ANIM___Mysa:pCube2
+    400452: WolfTank_IDALSHOOT_ANIM___Mysa:pCube3
+    400454: WolfTank_IDALSHOOT_ANIM___Mysa:pCube4
+    400456: WolfTank_IDALSHOOT_ANIM___Mysa:pCube5
+    400458: WolfTank_IDALSHOOT_ANIM___Mysa:pCube6
+    400460: WolfTank_IDALSHOOT_ANIM___Mysa:pCube7
+    400462: WolfTank_IDALSHOOT_ANIM___Mysa:pCube8
+    400464: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder1
+    400466: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder2
+    400468: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder3
+    400470: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder4
+    400472: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder5
+    400474: WolfTank_IDALSHOOT_ANIM___Mysa:pCylinder6
+    400476: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface1
+    400478: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface10
+    400480: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface12
+    400482: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface2
+    400484: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface3
+    400486: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface4
+    400488: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface4 1
+    400490: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface5
+    400492: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface6
+    400494: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface7
+    400496: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface8
+    400498: WolfTank_IDALSHOOT_ANIM___Mysa:polySurface9
+    400500: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare1
+    400502: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare2
+    400504: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare2 1
+    400506: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare2 2
+    400508: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare3
+    400510: WolfTank_IDALSHOOT_ANIM___Mysa:rightnurbsSquare4
+    400512: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare1
+    400514: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare2
+    400516: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare2 1
+    400518: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare2 2
+    400520: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare3
+    400522: WolfTank_IDALSHOOT_ANIM___Mysa:topnurbsSquare4
+    400524: WolfTank_IDALSHOOT_ANIM___Mysa:transform1
+    400526: WolfTank_IDALSHOOT_ANIM___Mysa:transform10
+    400528: WolfTank_IDALSHOOT_ANIM___Mysa:transform11
+    400530: WolfTank_IDALSHOOT_ANIM___Mysa:transform12
+    400532: WolfTank_IDALSHOOT_ANIM___Mysa:transform13
+    400534: WolfTank_IDALSHOOT_ANIM___Mysa:transform14
+    400536: WolfTank_IDALSHOOT_ANIM___Mysa:transform15
+    400538: WolfTank_IDALSHOOT_ANIM___Mysa:transform16
+    400540: WolfTank_IDALSHOOT_ANIM___Mysa:transform17
+    400542: WolfTank_IDALSHOOT_ANIM___Mysa:transform18
+    400544: WolfTank_IDALSHOOT_ANIM___Mysa:transform19
+    400546: WolfTank_IDALSHOOT_ANIM___Mysa:transform2
+    400548: WolfTank_IDALSHOOT_ANIM___Mysa:transform20
+    400550: WolfTank_IDALSHOOT_ANIM___Mysa:transform21
+    400552: WolfTank_IDALSHOOT_ANIM___Mysa:transform22
+    400554: WolfTank_IDALSHOOT_ANIM___Mysa:transform23
+    400556: WolfTank_IDALSHOOT_ANIM___Mysa:transform24
+    400558: WolfTank_IDALSHOOT_ANIM___Mysa:transform25
+    400560: WolfTank_IDALSHOOT_ANIM___Mysa:transform29
+    400562: WolfTank_IDALSHOOT_ANIM___Mysa:transform3
+    400564: WolfTank_IDALSHOOT_ANIM___Mysa:transform30
+    400566: WolfTank_IDALSHOOT_ANIM___Mysa:transform31
+    400568: WolfTank_IDALSHOOT_ANIM___Mysa:transform33
+    400570: WolfTank_IDALSHOOT_ANIM___Mysa:transform34
+    400572: WolfTank_IDALSHOOT_ANIM___Mysa:transform4
+    400574: WolfTank_IDALSHOOT_ANIM___Mysa:transform5
+    400576: WolfTank_IDALSHOOT_ANIM___Mysa:transform6
+    400578: WolfTank_IDALSHOOT_ANIM___Mysa:transform7
+    400580: WolfTank_IDALSHOOT_ANIM___Mysa:transform8
+    400582: WolfTank_IDALSHOOT_ANIM___Mysa:transform9
+    400584: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare1
+    400586: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare2
+    400588: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare2 1
+    400590: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare2 2
+    400592: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare3
+    400594: WolfTank_MELEE_ANIM___Mysa1:bottomnurbsSquare4
+    400596: WolfTank_MELEE_ANIM___Mysa1:Ctrl_shoulderbodybend
+    400598: WolfTank_MELEE_ANIM___Mysa1:Ctrl_Spinebend
+    400600: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_backlegL
+    400602: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_backlegR
+    400604: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_frontlegL
+    400606: WolfTank_MELEE_ANIM___Mysa1:ik_ctrl_frontlegR
+    400608: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare1
+    400610: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare2
+    400612: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare2 1
+    400614: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare2 2
+    400616: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare3
+    400618: WolfTank_MELEE_ANIM___Mysa1:leftnurbsSquare4
+    400620: WolfTank_MELEE_ANIM___Mysa1:pCube1
+    400622: WolfTank_MELEE_ANIM___Mysa1:pCube2
+    400624: WolfTank_MELEE_ANIM___Mysa1:pCube3
+    400626: WolfTank_MELEE_ANIM___Mysa1:pCube4
+    400628: WolfTank_MELEE_ANIM___Mysa1:pCube5
+    400630: WolfTank_MELEE_ANIM___Mysa1:pCube6
+    400632: WolfTank_MELEE_ANIM___Mysa1:pCube7
+    400634: WolfTank_MELEE_ANIM___Mysa1:pCube8
+    400636: WolfTank_MELEE_ANIM___Mysa1:pCylinder1
+    400638: WolfTank_MELEE_ANIM___Mysa1:pCylinder2
+    400640: WolfTank_MELEE_ANIM___Mysa1:pCylinder3
+    400642: WolfTank_MELEE_ANIM___Mysa1:pCylinder4
+    400644: WolfTank_MELEE_ANIM___Mysa1:pCylinder5
+    400646: WolfTank_MELEE_ANIM___Mysa1:pCylinder6
+    400648: WolfTank_MELEE_ANIM___Mysa1:polySurface1
+    400650: WolfTank_MELEE_ANIM___Mysa1:polySurface10
+    400652: WolfTank_MELEE_ANIM___Mysa1:polySurface12
+    400654: WolfTank_MELEE_ANIM___Mysa1:polySurface2
+    400656: WolfTank_MELEE_ANIM___Mysa1:polySurface3
+    400658: WolfTank_MELEE_ANIM___Mysa1:polySurface4
+    400660: WolfTank_MELEE_ANIM___Mysa1:polySurface4 1
+    400662: WolfTank_MELEE_ANIM___Mysa1:polySurface5
+    400664: WolfTank_MELEE_ANIM___Mysa1:polySurface6
+    400666: WolfTank_MELEE_ANIM___Mysa1:polySurface7
+    400668: WolfTank_MELEE_ANIM___Mysa1:polySurface8
+    400670: WolfTank_MELEE_ANIM___Mysa1:polySurface9
+    400672: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare1
+    400674: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare2
+    400676: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare2 1
+    400678: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare2 2
+    400680: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare3
+    400682: WolfTank_MELEE_ANIM___Mysa1:rightnurbsSquare4
+    400684: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare1
+    400686: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare2
+    400688: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare2 1
+    400690: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare2 2
+    400692: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare3
+    400694: WolfTank_MELEE_ANIM___Mysa1:topnurbsSquare4
+    400696: WolfTank_MELEE_ANIM___Mysa1:transform1
+    400698: WolfTank_MELEE_ANIM___Mysa1:transform10
+    400700: WolfTank_MELEE_ANIM___Mysa1:transform11
+    400702: WolfTank_MELEE_ANIM___Mysa1:transform12
+    400704: WolfTank_MELEE_ANIM___Mysa1:transform13
+    400706: WolfTank_MELEE_ANIM___Mysa1:transform14
+    400708: WolfTank_MELEE_ANIM___Mysa1:transform15
+    400710: WolfTank_MELEE_ANIM___Mysa1:transform16
+    400712: WolfTank_MELEE_ANIM___Mysa1:transform17
+    400714: WolfTank_MELEE_ANIM___Mysa1:transform18
+    400716: WolfTank_MELEE_ANIM___Mysa1:transform19
+    400718: WolfTank_MELEE_ANIM___Mysa1:transform2
+    400720: WolfTank_MELEE_ANIM___Mysa1:transform20
+    400722: WolfTank_MELEE_ANIM___Mysa1:transform21
+    400724: WolfTank_MELEE_ANIM___Mysa1:transform22
+    400726: WolfTank_MELEE_ANIM___Mysa1:transform23
+    400728: WolfTank_MELEE_ANIM___Mysa1:transform24
+    400730: WolfTank_MELEE_ANIM___Mysa1:transform25
+    400732: WolfTank_MELEE_ANIM___Mysa1:transform29
+    400734: WolfTank_MELEE_ANIM___Mysa1:transform3
+    400736: WolfTank_MELEE_ANIM___Mysa1:transform30
+    400738: WolfTank_MELEE_ANIM___Mysa1:transform31
+    400740: WolfTank_MELEE_ANIM___Mysa1:transform33
+    400742: WolfTank_MELEE_ANIM___Mysa1:transform34
+    400744: WolfTank_MELEE_ANIM___Mysa1:transform4
+    400746: WolfTank_MELEE_ANIM___Mysa1:transform5
+    400748: WolfTank_MELEE_ANIM___Mysa1:transform6
+    400750: WolfTank_MELEE_ANIM___Mysa1:transform7
+    400752: WolfTank_MELEE_ANIM___Mysa1:transform8
+    400754: WolfTank_MELEE_ANIM___Mysa1:transform9
+    400756: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare1
+    400758: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare2
+    400760: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare2 1
+    400762: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare2 2
+    400764: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare3
+    400766: WolfTank_MELEE_ANIM___Mysa:bottomnurbsSquare4
+    400768: WolfTank_MELEE_ANIM___Mysa:Ctrl_shoulderbodybend
+    400770: WolfTank_MELEE_ANIM___Mysa:Ctrl_Spinebend
+    400772: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_backlegL
+    400774: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_backlegR
+    400776: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_frontlegL
+    400778: WolfTank_MELEE_ANIM___Mysa:ik_ctrl_frontlegR
+    400780: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare1
+    400782: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare2
+    400784: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare2 1
+    400786: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare2 2
+    400788: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare3
+    400790: WolfTank_MELEE_ANIM___Mysa:leftnurbsSquare4
+    400792: WolfTank_MELEE_ANIM___Mysa:pCube1
+    400794: WolfTank_MELEE_ANIM___Mysa:pCube2
+    400796: WolfTank_MELEE_ANIM___Mysa:pCube3
+    400798: WolfTank_MELEE_ANIM___Mysa:pCube4
+    400800: WolfTank_MELEE_ANIM___Mysa:pCube5
+    400802: WolfTank_MELEE_ANIM___Mysa:pCube6
+    400804: WolfTank_MELEE_ANIM___Mysa:pCube7
+    400806: WolfTank_MELEE_ANIM___Mysa:pCube8
+    400808: WolfTank_MELEE_ANIM___Mysa:pCylinder1
+    400810: WolfTank_MELEE_ANIM___Mysa:pCylinder2
+    400812: WolfTank_MELEE_ANIM___Mysa:pCylinder3
+    400814: WolfTank_MELEE_ANIM___Mysa:pCylinder4
+    400816: WolfTank_MELEE_ANIM___Mysa:pCylinder5
+    400818: WolfTank_MELEE_ANIM___Mysa:pCylinder6
+    400820: WolfTank_MELEE_ANIM___Mysa:polySurface1
+    400822: WolfTank_MELEE_ANIM___Mysa:polySurface10
+    400824: WolfTank_MELEE_ANIM___Mysa:polySurface12
+    400826: WolfTank_MELEE_ANIM___Mysa:polySurface2
+    400828: WolfTank_MELEE_ANIM___Mysa:polySurface3
+    400830: WolfTank_MELEE_ANIM___Mysa:polySurface4
+    400832: WolfTank_MELEE_ANIM___Mysa:polySurface4 1
+    400834: WolfTank_MELEE_ANIM___Mysa:polySurface5
+    400836: WolfTank_MELEE_ANIM___Mysa:polySurface6
+    400838: WolfTank_MELEE_ANIM___Mysa:polySurface7
+    400840: WolfTank_MELEE_ANIM___Mysa:polySurface8
+    400842: WolfTank_MELEE_ANIM___Mysa:polySurface9
+    400844: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare1
+    400846: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare2
+    400848: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare2 1
+    400850: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare2 2
+    400852: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare3
+    400854: WolfTank_MELEE_ANIM___Mysa:rightnurbsSquare4
+    400856: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare1
+    400858: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare2
+    400860: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare2 1
+    400862: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare2 2
+    400864: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare3
+    400866: WolfTank_MELEE_ANIM___Mysa:topnurbsSquare4
+    400868: WolfTank_MELEE_ANIM___Mysa:transform1
+    400870: WolfTank_MELEE_ANIM___Mysa:transform10
+    400872: WolfTank_MELEE_ANIM___Mysa:transform11
+    400874: WolfTank_MELEE_ANIM___Mysa:transform12
+    400876: WolfTank_MELEE_ANIM___Mysa:transform13
+    400878: WolfTank_MELEE_ANIM___Mysa:transform14
+    400880: WolfTank_MELEE_ANIM___Mysa:transform15
+    400882: WolfTank_MELEE_ANIM___Mysa:transform16
+    400884: WolfTank_MELEE_ANIM___Mysa:transform17
+    400886: WolfTank_MELEE_ANIM___Mysa:transform18
+    400888: WolfTank_MELEE_ANIM___Mysa:transform19
+    400890: WolfTank_MELEE_ANIM___Mysa:transform2
+    400892: WolfTank_MELEE_ANIM___Mysa:transform20
+    400894: WolfTank_MELEE_ANIM___Mysa:transform21
+    400896: WolfTank_MELEE_ANIM___Mysa:transform22
+    400898: WolfTank_MELEE_ANIM___Mysa:transform23
+    400900: WolfTank_MELEE_ANIM___Mysa:transform24
+    400902: WolfTank_MELEE_ANIM___Mysa:transform25
+    400904: WolfTank_MELEE_ANIM___Mysa:transform29
+    400906: WolfTank_MELEE_ANIM___Mysa:transform3
+    400908: WolfTank_MELEE_ANIM___Mysa:transform30
+    400910: WolfTank_MELEE_ANIM___Mysa:transform31
+    400912: WolfTank_MELEE_ANIM___Mysa:transform33
+    400914: WolfTank_MELEE_ANIM___Mysa:transform34
+    400916: WolfTank_MELEE_ANIM___Mysa:transform4
+    400918: WolfTank_MELEE_ANIM___Mysa:transform5
+    400920: WolfTank_MELEE_ANIM___Mysa:transform6
+    400922: WolfTank_MELEE_ANIM___Mysa:transform7
+    400924: WolfTank_MELEE_ANIM___Mysa:transform8
+    400926: WolfTank_MELEE_ANIM___Mysa:transform9
+    400928: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare1
+    400930: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare2
+    400932: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare2 1
+    400934: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare2 2
+    400936: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare3
+    400938: WolfTank_MOVE_ANIM___Mysa:bottomnurbsSquare4
+    400940: WolfTank_MOVE_ANIM___Mysa:Ctrl_shoulderbodybend
+    400942: WolfTank_MOVE_ANIM___Mysa:Ctrl_Spinebend
+    400944: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_backlegL
+    400946: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_backlegR
+    400948: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_frontlegL
+    400950: WolfTank_MOVE_ANIM___Mysa:ik_ctrl_frontlegR
+    400952: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare1
+    400954: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare2
+    400956: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare2 1
+    400958: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare2 2
+    400960: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare3
+    400962: WolfTank_MOVE_ANIM___Mysa:leftnurbsSquare4
+    400964: WolfTank_MOVE_ANIM___Mysa:pCube1
+    400966: WolfTank_MOVE_ANIM___Mysa:pCube2
+    400968: WolfTank_MOVE_ANIM___Mysa:pCube3
+    400970: WolfTank_MOVE_ANIM___Mysa:pCube4
+    400972: WolfTank_MOVE_ANIM___Mysa:pCube5
+    400974: WolfTank_MOVE_ANIM___Mysa:pCube6
+    400976: WolfTank_MOVE_ANIM___Mysa:pCube7
+    400978: WolfTank_MOVE_ANIM___Mysa:pCube8
+    400980: WolfTank_MOVE_ANIM___Mysa:pCylinder1
+    400982: WolfTank_MOVE_ANIM___Mysa:pCylinder2
+    400984: WolfTank_MOVE_ANIM___Mysa:pCylinder3
+    400986: WolfTank_MOVE_ANIM___Mysa:pCylinder4
+    400988: WolfTank_MOVE_ANIM___Mysa:pCylinder5
+    400990: WolfTank_MOVE_ANIM___Mysa:pCylinder6
+    400992: WolfTank_MOVE_ANIM___Mysa:polySurface1
+    400994: WolfTank_MOVE_ANIM___Mysa:polySurface10
+    400996: WolfTank_MOVE_ANIM___Mysa:polySurface12
+    400998: WolfTank_MOVE_ANIM___Mysa:polySurface2
+    401000: WolfTank_MOVE_ANIM___Mysa:polySurface3
+    401002: WolfTank_MOVE_ANIM___Mysa:polySurface4
+    401004: WolfTank_MOVE_ANIM___Mysa:polySurface4 1
+    401006: WolfTank_MOVE_ANIM___Mysa:polySurface5
+    401008: WolfTank_MOVE_ANIM___Mysa:polySurface6
+    401010: WolfTank_MOVE_ANIM___Mysa:polySurface7
+    401012: WolfTank_MOVE_ANIM___Mysa:polySurface8
+    401014: WolfTank_MOVE_ANIM___Mysa:polySurface9
+    401016: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare1
+    401018: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare2
+    401020: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare2 1
+    401022: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare2 2
+    401024: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare3
+    401026: WolfTank_MOVE_ANIM___Mysa:rightnurbsSquare4
+    401028: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare1
+    401030: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare2
+    401032: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare2 1
+    401034: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare2 2
+    401036: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare3
+    401038: WolfTank_MOVE_ANIM___Mysa:topnurbsSquare4
+    401040: WolfTank_MOVE_ANIM___Mysa:transform1
+    401042: WolfTank_MOVE_ANIM___Mysa:transform10
+    401044: WolfTank_MOVE_ANIM___Mysa:transform11
+    401046: WolfTank_MOVE_ANIM___Mysa:transform12
+    401048: WolfTank_MOVE_ANIM___Mysa:transform13
+    401050: WolfTank_MOVE_ANIM___Mysa:transform14
+    401052: WolfTank_MOVE_ANIM___Mysa:transform15
+    401054: WolfTank_MOVE_ANIM___Mysa:transform16
+    401056: WolfTank_MOVE_ANIM___Mysa:transform17
+    401058: WolfTank_MOVE_ANIM___Mysa:transform18
+    401060: WolfTank_MOVE_ANIM___Mysa:transform19
+    401062: WolfTank_MOVE_ANIM___Mysa:transform2
+    401064: WolfTank_MOVE_ANIM___Mysa:transform20
+    401066: WolfTank_MOVE_ANIM___Mysa:transform21
+    401068: WolfTank_MOVE_ANIM___Mysa:transform22
+    401070: WolfTank_MOVE_ANIM___Mysa:transform23
+    401072: WolfTank_MOVE_ANIM___Mysa:transform24
+    401074: WolfTank_MOVE_ANIM___Mysa:transform25
+    401076: WolfTank_MOVE_ANIM___Mysa:transform29
+    401078: WolfTank_MOVE_ANIM___Mysa:transform3
+    401080: WolfTank_MOVE_ANIM___Mysa:transform30
+    401082: WolfTank_MOVE_ANIM___Mysa:transform31
+    401084: WolfTank_MOVE_ANIM___Mysa:transform33
+    401086: WolfTank_MOVE_ANIM___Mysa:transform34
+    401088: WolfTank_MOVE_ANIM___Mysa:transform4
+    401090: WolfTank_MOVE_ANIM___Mysa:transform5
+    401092: WolfTank_MOVE_ANIM___Mysa:transform6
+    401094: WolfTank_MOVE_ANIM___Mysa:transform7
+    401096: WolfTank_MOVE_ANIM___Mysa:transform8
+    401098: WolfTank_MOVE_ANIM___Mysa:transform9
+    401100: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare1
+    401102: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare2
+    401104: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare2 1
+    401106: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare2 2
+    401108: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare3
+    401110: WolfTank_WALK_ANIM___Mysa:bottomnurbsSquare4
+    401112: WolfTank_WALK_ANIM___Mysa:Ctrl_shoulderbodybend
+    401114: WolfTank_WALK_ANIM___Mysa:Ctrl_Spinebend
+    401116: WolfTank_WALK_ANIM___Mysa:ik_ctrl_backlegL
+    401118: WolfTank_WALK_ANIM___Mysa:ik_ctrl_backlegR
+    401120: WolfTank_WALK_ANIM___Mysa:ik_ctrl_frontlegL
+    401122: WolfTank_WALK_ANIM___Mysa:ik_ctrl_frontlegR
+    401124: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare1
+    401126: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare2
+    401128: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare2 1
+    401130: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare2 2
+    401132: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare3
+    401134: WolfTank_WALK_ANIM___Mysa:leftnurbsSquare4
+    401136: WolfTank_WALK_ANIM___Mysa:pCube1
+    401138: WolfTank_WALK_ANIM___Mysa:pCube2
+    401140: WolfTank_WALK_ANIM___Mysa:pCube3
+    401142: WolfTank_WALK_ANIM___Mysa:pCube4
+    401144: WolfTank_WALK_ANIM___Mysa:pCube5
+    401146: WolfTank_WALK_ANIM___Mysa:pCube6
+    401148: WolfTank_WALK_ANIM___Mysa:pCube7
+    401150: WolfTank_WALK_ANIM___Mysa:pCube8
+    401152: WolfTank_WALK_ANIM___Mysa:pCylinder1
+    401154: WolfTank_WALK_ANIM___Mysa:pCylinder2
+    401156: WolfTank_WALK_ANIM___Mysa:pCylinder3
+    401158: WolfTank_WALK_ANIM___Mysa:pCylinder4
+    401160: WolfTank_WALK_ANIM___Mysa:pCylinder5
+    401162: WolfTank_WALK_ANIM___Mysa:pCylinder6
+    401164: WolfTank_WALK_ANIM___Mysa:polySurface1
+    401166: WolfTank_WALK_ANIM___Mysa:polySurface10
+    401168: WolfTank_WALK_ANIM___Mysa:polySurface12
+    401170: WolfTank_WALK_ANIM___Mysa:polySurface2
+    401172: WolfTank_WALK_ANIM___Mysa:polySurface3
+    401174: WolfTank_WALK_ANIM___Mysa:polySurface4
+    401176: WolfTank_WALK_ANIM___Mysa:polySurface4 1
+    401178: WolfTank_WALK_ANIM___Mysa:polySurface5
+    401180: WolfTank_WALK_ANIM___Mysa:polySurface6
+    401182: WolfTank_WALK_ANIM___Mysa:polySurface7
+    401184: WolfTank_WALK_ANIM___Mysa:polySurface8
+    401186: WolfTank_WALK_ANIM___Mysa:polySurface9
+    401188: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare1
+    401190: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare2
+    401192: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare2 1
+    401194: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare2 2
+    401196: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare3
+    401198: WolfTank_WALK_ANIM___Mysa:rightnurbsSquare4
+    401200: WolfTank_WALK_ANIM___Mysa:topnurbsSquare1
+    401202: WolfTank_WALK_ANIM___Mysa:topnurbsSquare2
+    401204: WolfTank_WALK_ANIM___Mysa:topnurbsSquare2 1
+    401206: WolfTank_WALK_ANIM___Mysa:topnurbsSquare2 2
+    401208: WolfTank_WALK_ANIM___Mysa:topnurbsSquare3
+    401210: WolfTank_WALK_ANIM___Mysa:topnurbsSquare4
+    401212: WolfTank_WALK_ANIM___Mysa:transform1
+    401214: WolfTank_WALK_ANIM___Mysa:transform10
+    401216: WolfTank_WALK_ANIM___Mysa:transform11
+    401218: WolfTank_WALK_ANIM___Mysa:transform12
+    401220: WolfTank_WALK_ANIM___Mysa:transform13
+    401222: WolfTank_WALK_ANIM___Mysa:transform14
+    401224: WolfTank_WALK_ANIM___Mysa:transform15
+    401226: WolfTank_WALK_ANIM___Mysa:transform16
+    401228: WolfTank_WALK_ANIM___Mysa:transform17
+    401230: WolfTank_WALK_ANIM___Mysa:transform18
+    401232: WolfTank_WALK_ANIM___Mysa:transform19
+    401234: WolfTank_WALK_ANIM___Mysa:transform2
+    401236: WolfTank_WALK_ANIM___Mysa:transform20
+    401238: WolfTank_WALK_ANIM___Mysa:transform21
+    401240: WolfTank_WALK_ANIM___Mysa:transform22
+    401242: WolfTank_WALK_ANIM___Mysa:transform23
+    401244: WolfTank_WALK_ANIM___Mysa:transform24
+    401246: WolfTank_WALK_ANIM___Mysa:transform25
+    401248: WolfTank_WALK_ANIM___Mysa:transform29
+    401250: WolfTank_WALK_ANIM___Mysa:transform3
+    401252: WolfTank_WALK_ANIM___Mysa:transform30
+    401254: WolfTank_WALK_ANIM___Mysa:transform31
+    401256: WolfTank_WALK_ANIM___Mysa:transform33
+    401258: WolfTank_WALK_ANIM___Mysa:transform34
+    401260: WolfTank_WALK_ANIM___Mysa:transform4
+    401262: WolfTank_WALK_ANIM___Mysa:transform5
+    401264: WolfTank_WALK_ANIM___Mysa:transform6
+    401266: WolfTank_WALK_ANIM___Mysa:transform7
+    401268: WolfTank_WALK_ANIM___Mysa:transform8
+    401270: WolfTank_WALK_ANIM___Mysa:transform9
+    4300000: robowolfSKELETON:polySurface1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: robowolfSKELETON:polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
