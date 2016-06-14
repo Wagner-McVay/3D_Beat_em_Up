@@ -258,7 +258,13 @@ ModelImporter:
     4300004: polySurface3
     4300006: polySurface4
     4300008: polySurface8
-    7400000: Take 001
+    7400000: Idle
+    7400002: Run
+    7400004: RunShoot
+    7400006: Flinch
+    7400008: IdleShoot
+    7400010: IdleMelee
+    7400012: Death
     9500000: //RootNode
     13700000: polySurface1
     13700002: polySurface2
@@ -267,7 +273,7 @@ ModelImporter:
     13700008: polySurface8
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 2
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -284,7 +290,2163 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mage_Mesh
+        weight: 1
+      - path: Mage_Mesh/front1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface2
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface3
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface4
+        weight: 1
+      - path: Mage_Mesh/polySurface8
+        weight: 1
+      - path: Mage_Skeleton
+        weight: 1
+      - path: Mage_Skeleton/body
+        weight: 1
+      - path: Mage_Skeleton/body/chest
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39/joint40
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1/joint40 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1/joint35 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1/joint29 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw/bottom_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth/upper_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/skull
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt/L_leg
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint/r_leg
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt/Left_bottommidfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt/Left_bottompnkfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt/Left_bottomthbfig
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1/joint5 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1/Left_bottommidfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1/Left_bottompnkfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1/Left_bottomthbfig 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 203
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mage_Mesh
+        weight: 1
+      - path: Mage_Mesh/front1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface2
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface3
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface4
+        weight: 1
+      - path: Mage_Mesh/polySurface8
+        weight: 1
+      - path: Mage_Skeleton
+        weight: 1
+      - path: Mage_Skeleton/body
+        weight: 1
+      - path: Mage_Skeleton/body/chest
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39/joint40
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1/joint40 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1/joint35 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1/joint29 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw/bottom_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth/upper_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/skull
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt/L_leg
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint/r_leg
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt/Left_bottommidfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt/Left_bottompnkfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt/Left_bottomthbfig
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1/joint5 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1/Left_bottommidfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1/Left_bottompnkfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1/Left_bottomthbfig 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunShoot
+      takeName: Take 001
+      firstFrame: 208
+      lastFrame: 306
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mage_Mesh
+        weight: 1
+      - path: Mage_Mesh/front1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface2
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface3
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface4
+        weight: 1
+      - path: Mage_Mesh/polySurface8
+        weight: 1
+      - path: Mage_Skeleton
+        weight: 1
+      - path: Mage_Skeleton/body
+        weight: 1
+      - path: Mage_Skeleton/body/chest
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39/joint40
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1/joint40 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1/joint35 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1/joint29 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw/bottom_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth/upper_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/skull
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt/L_leg
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint/r_leg
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt/Left_bottommidfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt/Left_bottompnkfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt/Left_bottomthbfig
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1/joint5 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1/Left_bottommidfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1/Left_bottompnkfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1/Left_bottomthbfig 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Flinch
+      takeName: Take 001
+      firstFrame: 311
+      lastFrame: 409
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mage_Mesh
+        weight: 1
+      - path: Mage_Mesh/front1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface2
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface3
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface4
+        weight: 1
+      - path: Mage_Mesh/polySurface8
+        weight: 1
+      - path: Mage_Skeleton
+        weight: 1
+      - path: Mage_Skeleton/body
+        weight: 1
+      - path: Mage_Skeleton/body/chest
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39/joint40
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1/joint40 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1/joint35 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1/joint29 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw/bottom_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth/upper_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/skull
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt/L_leg
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint/r_leg
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt/Left_bottommidfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt/Left_bottompnkfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt/Left_bottomthbfig
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1/joint5 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1/Left_bottommidfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1/Left_bottompnkfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1/Left_bottomthbfig 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleShoot
+      takeName: Take 001
+      firstFrame: 414
+      lastFrame: 512
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mage_Mesh
+        weight: 1
+      - path: Mage_Mesh/front1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface2
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface3
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface4
+        weight: 1
+      - path: Mage_Mesh/polySurface8
+        weight: 1
+      - path: Mage_Skeleton
+        weight: 1
+      - path: Mage_Skeleton/body
+        weight: 1
+      - path: Mage_Skeleton/body/chest
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39/joint40
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1/joint40 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1/joint35 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1/joint29 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw/bottom_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth/upper_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/skull
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt/L_leg
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint/r_leg
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt/Left_bottommidfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt/Left_bottompnkfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt/Left_bottomthbfig
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1/joint5 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1/Left_bottommidfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1/Left_bottompnkfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1/Left_bottomthbfig 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleMelee
+      takeName: Take 001
+      firstFrame: 515
+      lastFrame: 580
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mage_Mesh
+        weight: 1
+      - path: Mage_Mesh/front1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface2
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface3
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface4
+        weight: 1
+      - path: Mage_Mesh/polySurface8
+        weight: 1
+      - path: Mage_Skeleton
+        weight: 1
+      - path: Mage_Skeleton/body
+        weight: 1
+      - path: Mage_Skeleton/body/chest
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39/joint40
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1/joint40 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1/joint35 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1/joint29 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw/bottom_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth/upper_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/skull
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt/L_leg
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint/r_leg
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt/Left_bottommidfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt/Left_bottompnkfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt/Left_bottomthbfig
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1/joint5 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1/Left_bottommidfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1/Left_bottompnkfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1/Left_bottomthbfig 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 583
+      lastFrame: 661
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mage_Mesh
+        weight: 1
+      - path: Mage_Mesh/front1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface1
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface2
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface3
+        weight: 1
+      - path: Mage_Mesh/front1/polySurface4
+        weight: 1
+      - path: Mage_Mesh/polySurface8
+        weight: 1
+      - path: Mage_Skeleton
+        weight: 1
+      - path: Mage_Skeleton/body
+        weight: 1
+      - path: Mage_Skeleton/body/chest
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint23/joint36/joint37/joint38/joint39/joint40
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint22/joint30/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint21/joint24/joint25/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint23 1/joint36
+          1/joint37 1/joint38 1/joint39 1/joint40 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint22 1/joint30 1/joint31
+          1/joint32 1/joint33 1/joint34 1/joint35 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/Cape_jnts/joint61/joint24 1/joint25 1/joint26
+          1/joint27 1/joint28 1/joint29 1
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/jaw/bottom_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/mouth/upper_mouth
+        weight: 1
+      - path: Mage_Skeleton/body/chest/mid_neck/neck/Head/skull
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt
+        weight: 1
+      - path: Mage_Skeleton/body/L_legjnt/L_leg
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint
+        weight: 1
+      - path: Mage_Skeleton/body/r_legjoint/r_leg
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottommidjnt/Left_bottommidfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottompinky/Left_bottompnkjnt/Left_bottompnkfig
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt
+        weight: 1
+      - path: Mage_Skeleton/Left_Bottomhand/transform6/Left_bottomhand/Left_bottommid/Left_bottomthumb/Left_bottomthbjnt/Left_bottomthbfig
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12
+        weight: 1
+      - path: Mage_Skeleton/Left_tophand/transform8/Left_tophand 1/joint2/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint3
+          1/joint4 1/joint5 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint6
+          1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1
+        weight: 1
+      - path: Mage_Skeleton/Right_tophand/transform9/Right_tophand 1/joint2 1/joint10
+          1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottommidjnt 1/Left_bottommidfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottompinky 1/Left_bottompnkjnt 1/Left_bottompnkfig 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1
+        weight: 1
+      - path: Mage_Skeleton/Rigth_bottomhand/transform7/Right_bottomhand1/Left_bottommid
+          1/Left_bottomthumb 1/Left_bottomthbjnt 1/Left_bottomthbfig 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

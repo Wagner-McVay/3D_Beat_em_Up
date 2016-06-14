@@ -2,15 +2,20 @@
 using System.Collections;
 
 public class BulletData : MonoBehaviour {
+    
+	PlayerSettings PlayerSet;
+    float Damage;
 
-    int Damage;
     float Decay;
     float LastDecay;
 
     // Use this for initialization
     void Start ()
     {
-        Decay = GameObject.FindGameObjectWithTag("Player").GetComponent<Bullet>().BulletDecay;
+		PlayerSet = GameObject.FindGameObjectWithTag("GameController").GetComponent<PlayerSettings>();
+		Damage = PlayerSet.Data[0].PlayerDamage;
+		Decay = PlayerSet.Data[0].RangeAttackDecay;
+
         LastDecay = Decay + Time.time;
     }
 	
@@ -22,7 +27,11 @@ public class BulletData : MonoBehaviour {
 
     void OnTriggerEnter(Collider c)
     {
-        if (c.gameObject.tag == "Terrain")
+        if (c.gameObject.tag == "Enemy")
+		{
+			c.gameObject.GetComponent<EnemyActor>().TakeDamage(Damage);
+		}
+		if (c.gameObject.tag == "Terrain")
         {
             Destroy();
         }
