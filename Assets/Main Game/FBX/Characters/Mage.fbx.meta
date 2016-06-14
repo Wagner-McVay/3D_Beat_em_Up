@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 2c813868332b37744825d741b04d8be3
+timeCreated: 1465921174
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: body
+    100002: bottom_mouth
+    100004: Cape_jnts
+    100006: chest
+    100008: front1
+    100010: Head
+    100012: jaw
+    100014: joint10
+    100016: joint10 1
+    100018: joint11
+    100020: joint11 1
+    100022: joint12
+    100024: joint12 1
+    100026: joint13
+    100028: joint13 1
+    100030: joint15
+    100032: joint16
+    100034: joint17
+    100036: joint18
+    100038: joint19
+    100040: joint2
+    100042: joint2 1
+    100044: joint20
+    100046: joint21
+    100048: joint22
+    100050: joint22 1
+    100052: joint23
+    100054: joint23 1
+    100056: joint24
+    100058: joint24 1
+    100060: joint25
+    100062: joint25 1
+    100064: joint26
+    100066: joint26 1
+    100068: joint27
+    100070: joint27 1
+    100072: joint28
+    100074: joint28 1
+    100076: joint29
+    100078: joint29 1
+    100080: joint3
+    100082: joint3 1
+    100084: joint30
+    100086: joint30 1
+    100088: joint31
+    100090: joint31 1
+    100092: joint32
+    100094: joint32 1
+    100096: joint33
+    100098: joint33 1
+    100100: joint34
+    100102: joint34 1
+    100104: joint35
+    100106: joint35 1
+    100108: joint36
+    100110: joint36 1
+    100112: joint37
+    100114: joint37 1
+    100116: joint38
+    100118: joint38 1
+    100120: joint39
+    100122: joint39 1
+    100124: joint4
+    100126: joint4 1
+    100128: joint40
+    100130: joint40 1
+    100132: joint5
+    100134: joint5 1
+    100136: joint6
+    100138: joint6 1
+    100140: joint61
+    100142: joint7
+    100144: joint7 1
+    100146: joint8
+    100148: joint8 1
+    100150: joint9
+    100152: joint9 1
+    100154: L_leg
+    100156: L_legjnt
+    100158: Left_Bottomhand
+    100160: Left_bottomhand
+    100162: Left_bottommid
+    100164: Left_bottommid 1
+    100166: Left_bottommidfig
+    100168: Left_bottommidfig 1
+    100170: Left_bottommidjnt
+    100172: Left_bottommidjnt 1
+    100174: Left_bottompinky
+    100176: Left_bottompinky 1
+    100178: Left_bottompnkfig
+    100180: Left_bottompnkfig 1
+    100182: Left_bottompnkjnt
+    100184: Left_bottompnkjnt 1
+    100186: Left_bottomthbfig
+    100188: Left_bottomthbfig 1
+    100190: Left_bottomthbjnt
+    100192: Left_bottomthbjnt 1
+    100194: Left_bottomthumb
+    100196: Left_bottomthumb 1
+    100198: Left_tophand
+    100200: Left_tophand 1
+    100202: //RootNode
+    100204: Mage_Mesh
+    100206: Mage_Skeleton
+    100208: mid_neck
+    100210: mouth
+    100212: neck
+    100214: polySurface1
+    100216: polySurface2
+    100218: polySurface3
+    100220: polySurface4
+    100222: polySurface8
+    100224: r_leg
+    100226: r_legjoint
+    100228: Right_bottomhand1
+    100230: Right_tophand
+    100232: Right_tophand 1
+    100234: Rigth_bottomhand
+    100236: skull
+    100238: transform6
+    100240: transform7
+    100242: transform8
+    100244: transform9
+    100246: upper_mouth
+    400000: body
+    400002: bottom_mouth
+    400004: Cape_jnts
+    400006: chest
+    400008: front1
+    400010: Head
+    400012: jaw
+    400014: joint10
+    400016: joint10 1
+    400018: joint11
+    400020: joint11 1
+    400022: joint12
+    400024: joint12 1
+    400026: joint13
+    400028: joint13 1
+    400030: joint15
+    400032: joint16
+    400034: joint17
+    400036: joint18
+    400038: joint19
+    400040: joint2
+    400042: joint2 1
+    400044: joint20
+    400046: joint21
+    400048: joint22
+    400050: joint22 1
+    400052: joint23
+    400054: joint23 1
+    400056: joint24
+    400058: joint24 1
+    400060: joint25
+    400062: joint25 1
+    400064: joint26
+    400066: joint26 1
+    400068: joint27
+    400070: joint27 1
+    400072: joint28
+    400074: joint28 1
+    400076: joint29
+    400078: joint29 1
+    400080: joint3
+    400082: joint3 1
+    400084: joint30
+    400086: joint30 1
+    400088: joint31
+    400090: joint31 1
+    400092: joint32
+    400094: joint32 1
+    400096: joint33
+    400098: joint33 1
+    400100: joint34
+    400102: joint34 1
+    400104: joint35
+    400106: joint35 1
+    400108: joint36
+    400110: joint36 1
+    400112: joint37
+    400114: joint37 1
+    400116: joint38
+    400118: joint38 1
+    400120: joint39
+    400122: joint39 1
+    400124: joint4
+    400126: joint4 1
+    400128: joint40
+    400130: joint40 1
+    400132: joint5
+    400134: joint5 1
+    400136: joint6
+    400138: joint6 1
+    400140: joint61
+    400142: joint7
+    400144: joint7 1
+    400146: joint8
+    400148: joint8 1
+    400150: joint9
+    400152: joint9 1
+    400154: L_leg
+    400156: L_legjnt
+    400158: Left_Bottomhand
+    400160: Left_bottomhand
+    400162: Left_bottommid
+    400164: Left_bottommid 1
+    400166: Left_bottommidfig
+    400168: Left_bottommidfig 1
+    400170: Left_bottommidjnt
+    400172: Left_bottommidjnt 1
+    400174: Left_bottompinky
+    400176: Left_bottompinky 1
+    400178: Left_bottompnkfig
+    400180: Left_bottompnkfig 1
+    400182: Left_bottompnkjnt
+    400184: Left_bottompnkjnt 1
+    400186: Left_bottomthbfig
+    400188: Left_bottomthbfig 1
+    400190: Left_bottomthbjnt
+    400192: Left_bottomthbjnt 1
+    400194: Left_bottomthumb
+    400196: Left_bottomthumb 1
+    400198: Left_tophand
+    400200: Left_tophand 1
+    400202: //RootNode
+    400204: Mage_Mesh
+    400206: Mage_Skeleton
+    400208: mid_neck
+    400210: mouth
+    400212: neck
+    400214: polySurface1
+    400216: polySurface2
+    400218: polySurface3
+    400220: polySurface4
+    400222: polySurface8
+    400224: r_leg
+    400226: r_legjoint
+    400228: Right_bottomhand1
+    400230: Right_tophand
+    400232: Right_tophand 1
+    400234: Rigth_bottomhand
+    400236: skull
+    400238: transform6
+    400240: transform7
+    400242: transform8
+    400244: transform9
+    400246: upper_mouth
+    4300000: polySurface1
+    4300002: polySurface2
+    4300004: polySurface3
+    4300006: polySurface4
+    4300008: polySurface8
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface1
+    13700002: polySurface2
+    13700004: polySurface3
+    13700006: polySurface4
+    13700008: polySurface8
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: e5302c7c4f895a64987fba4c00b70492
+timeCreated: 1465339080
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: back_legL
+    100002: back_legR
+    100004: backankleL
+    100006: backankleR
+    100008: backfootL
+    100010: backfootR
+    100012: backhidL
+    100014: backhidR
+    100016: bottom_jaw
+    100018: Ctrl_Spinebend
+    100020: front_legL
+    100022: front_legR
+    100024: frontankleL
+    100026: frontankleR
+    100028: frontelbowL
+    100030: frontelbowR
+    100032: frontfootL
+    100034: frontfootR
+    100036: frontshoulderL
+    100038: frontshoulderR
+    100040: head
+    100042: hips
+    100044: jaw
+    100046: neck
+    100048: spine
+    100050: Tail
+    100052: Tail_hip_jnt
+    100054: transform33
+    100056: //RootNode
+    100058: Wolf_Mesh
+    100060: Wolf_Skeleton
+    400000: back_legL
+    400002: back_legR
+    400004: backankleL
+    400006: backankleR
+    400008: backfootL
+    400010: backfootR
+    400012: backhidL
+    400014: backhidR
+    400016: bottom_jaw
+    400018: Ctrl_Spinebend
+    400020: front_legL
+    400022: front_legR
+    400024: frontankleL
+    400026: frontankleR
+    400028: frontelbowL
+    400030: frontelbowR
+    400032: frontfootL
+    400034: frontfootR
+    400036: frontshoulderL
+    400038: frontshoulderR
+    400040: head
+    400042: hips
+    400044: jaw
+    400046: neck
+    400048: spine
+    400050: Tail
+    400052: Tail_hip_jnt
+    400054: transform33
+    400056: //RootNode
+    400058: Wolf_Mesh
+    400060: Wolf_Skeleton
+    4300000: Wolf_Mesh
+    7400000: Idle
+    7400002: Run
+    7400004: IdleShoot
+    7400006: RunShoot
+    7400008: Melee
+    7400010: Death
+    7400012: Flinch
+    9500000: //RootNode
+    13700000: Wolf_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf_Mesh
+        weight: 1
+      - path: Wolf_Skeleton
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL/frontfootL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR/frontfootR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw/bottom_jaw
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL/backfootL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR/backfootR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf_Mesh
+        weight: 1
+      - path: Wolf_Skeleton
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL/frontfootL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR/frontfootR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw/bottom_jaw
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL/backfootL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR/backfootR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleShoot
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf_Mesh
+        weight: 1
+      - path: Wolf_Skeleton
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL/frontfootL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR/frontfootR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw/bottom_jaw
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL/backfootL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR/backfootR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunShoot
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf_Mesh
+        weight: 1
+      - path: Wolf_Skeleton
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL/frontfootL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR/frontfootR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw/bottom_jaw
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL/backfootL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR/backfootR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Melee
+      takeName: Take 001
+      firstFrame: 122
+      lastFrame: 148
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf_Mesh
+        weight: 1
+      - path: Wolf_Skeleton
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL/frontfootL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR/frontfootR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw/bottom_jaw
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL/backfootL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR/backfootR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 148
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf_Mesh
+        weight: 1
+      - path: Wolf_Skeleton
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL/frontfootL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR/frontfootR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw/bottom_jaw
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL/backfootL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR/backfootR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Flinch
+      takeName: Take 001
+      firstFrame: 181
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf_Mesh
+        weight: 1
+      - path: Wolf_Skeleton
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legL/frontshoulderL/frontelbowL/frontankleL/frontfootL
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/front_legR/frontshoulderR/frontelbowR/frontankleR/frontfootR
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw
+        weight: 1
+      - path: Wolf_Skeleton/Ctrl_Spinebend/transform33/spine/neck/head/jaw/bottom_jaw
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legL/backhidL/backankleL/backfootL
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/hips/back_legR/backhidR/backankleR/backfootR
+        weight: 1
+      - path: Wolf_Skeleton/Tail_hip_jnt/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

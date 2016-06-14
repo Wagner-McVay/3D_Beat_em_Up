@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 9153635f55c886a489dde4d0b2e1ba05
+timeCreated: 1465346122
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: body
+    100004: Body_hip
+    100006: bottom_spine
+    100008: chest
+    100010: Crtl_Larm
+    100012: Crtl_Rarm
+    100014: Ctrl_hip
+    100016: Ctrl_Lfoot
+    100018: Ctrl_Rfoot
+    100020: hand
+    100022: ikH_Larm
+    100024: ikH_Lleg
+    100026: ikH_Lleg 1
+    100028: ikH_Rarm
+    100030: ikH_Rleg
+    100032: joint1
+    100034: joint2
+    100036: l_arm
+    100038: l_elbow
+    100040: l_foot
+    100042: l_hand
+    100044: l_knee
+    100046: L_leg
+    100048: l_wrist
+    100050: Mid_spine
+    100052: neck
+    100054: r_arm
+    100056: r_elbow
+    100058: r_foot
+    100060: r_hand
+    100062: r_knee
+    100064: R_leg
+    100066: r_wrist
+    100068: topnurbsSquare1
+    100070: transform15
+    400000: //RootNode
+    400002: body
+    400004: Body_hip
+    400006: bottom_spine
+    400008: chest
+    400010: Crtl_Larm
+    400012: Crtl_Rarm
+    400014: Ctrl_hip
+    400016: Ctrl_Lfoot
+    400018: Ctrl_Rfoot
+    400020: hand
+    400022: ikH_Larm
+    400024: ikH_Lleg
+    400026: ikH_Lleg 1
+    400028: ikH_Rarm
+    400030: ikH_Rleg
+    400032: joint1
+    400034: joint2
+    400036: l_arm
+    400038: l_elbow
+    400040: l_foot
+    400042: l_hand
+    400044: l_knee
+    400046: L_leg
+    400048: l_wrist
+    400050: Mid_spine
+    400052: neck
+    400054: r_arm
+    400056: r_elbow
+    400058: r_foot
+    400060: r_hand
+    400062: r_knee
+    400064: R_leg
+    400066: r_wrist
+    400068: topnurbsSquare1
+    400070: transform15
+    4300000: body
+    7400000: Idle
+    7400002: Run
+    7400004: IdleShoot
+    7400006: Flinch
+    7400008: Death
+    7400010: IdleMelee
+    7400012: RunShoot
+    7400014: BackStep
+    9500000: //RootNode
+    13700000: body
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleShoot
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Flinch
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 158
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleMelee
+      takeName: Take 001
+      firstFrame: 188
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunShoot
+      takeName: Take 001
+      firstFrame: 215
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BackStep
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Crtl_Larm
+        weight: 1
+      - path: Crtl_Larm/ikH_Larm
+        weight: 1
+      - path: Crtl_Rarm
+        weight: 1
+      - path: Crtl_Rarm/ikH_Rarm
+        weight: 1
+      - path: Ctrl_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/l_arm/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/neck/hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/bottom_spine/Mid_spine/chest/r_arm/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/L_leg/l_knee/l_foot/joint1
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot
+        weight: 1
+      - path: Ctrl_hip/topnurbsSquare1/transform15/Body_hip/R_leg/r_knee/r_foot/joint2
+        weight: 1
+      - path: Ctrl_Lfoot
+        weight: 1
+      - path: Ctrl_Lfoot/ikH_Lleg
+        weight: 1
+      - path: Ctrl_Rfoot
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Lleg 1
+        weight: 1
+      - path: Ctrl_Rfoot/ikH_Rleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

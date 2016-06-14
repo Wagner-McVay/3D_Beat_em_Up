@@ -1,32 +1,42 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
+using System.Collections;
+
 
 public class PlayerActor : MonoBehaviour {
 
 	private CharacterController controller;
-	private GameObject ATK_R;
-	private GameObject ATK_L;
-	private GameObject NME_1;
-	private GameObject NME_2;
-	private GameObject NME_3;
-	private GameObject NME_4;
-	private bool Jump = false;
+	private GameObject GameController;
+	private bool isGrounded = false;
 	private float Y = -8;
-	private bool Direction = true;
-	public float Player_HP = 100;
-	public float JumpHeight = 1;
-	public float Speed = 1;
-	public float Gravity = 1;
+//	private bool Direction = true;
+	public float HP;
+	public float MP;
+	public float Damage;
+	public float Armor;
+	public float JumpVal;
+	public float Speed;
+	public float Gravity;
+	public bool takingDamage = false;
+
+	[SerializeField]
+	private int PlayerID;
+
 	// Use this for initialization
 	void Start () {
-		controller = gameObject.GetComponent<CharacterController> ();
-		ATK_R = GameObject.Find("R_HitBox");
-		ATK_L = GameObject.Find("L_HitBox");
-		NME_1 = GameObject.Find("Enemy 1");
-		NME_2 = GameObject.Find("Enemy 2");
-		NME_3 = GameObject.Find("Enemy 3");
-		NME_4 = GameObject.Find("Enemy 4");
+		controller = gameObject.GetComponent<CharacterController>();
+		GameController = GameObject.FindGameObjectWithTag("GameController");
+
+		PlayerSettings playerSett = GameController.GetComponent<PlayerSettings>();
+		PlayerID = (int)playerSett.Players - 1;
+		HP = playerSett.Data[PlayerID].PlayerHP;
+		MP = playerSett.Data[PlayerID].PlayerMP;
+		Damage = playerSett.Data[PlayerID].PlayerDamage;
+		Armor = playerSett.Data[PlayerID].PlayerArmor;
+		JumpVal = playerSett.Data[PlayerID].PlayerJump;
+		Speed = playerSett.Data[PlayerID].PlayerSpeed;
+		Gravity = playerSett.Data[PlayerID].PlayerGravity;
+
 	}
 
 	// Update is called once per frame
@@ -41,10 +51,10 @@ public class PlayerActor : MonoBehaviour {
 			else Y = -8;
 
 			if (Input.GetKey (KeyCode.Space)) {
-				if (Jump == false) {
-					Y = (JumpHeight+3);			
+				if (isGrounded == false) {
+					Y = (JumpVal+3);			
 				}
-				Jump = true;
+				isGrounded = true;
 			}
 
 			Vector3 move_direction = new Vector3 (0, Y, 0);
@@ -71,12 +81,12 @@ public class PlayerActor : MonoBehaviour {
 		if (Input.GetKey (KeyCode.A)) {
 			Vector3 move_direction = new Vector3 (-Speed-1, 0, 0);
 			controller.Move (move_direction * Time.deltaTime);
-			Direction = false;
+//			Direction = false;
 		}
 		if (Input.GetKey (KeyCode.D)) {
 			Vector3 move_direction = new Vector3 (Speed+1, 0, 0);
 			controller.Move (move_direction * Time.deltaTime);
-			Direction = true;
+//			Direction = true;
 		}
 
 
@@ -97,8 +107,36 @@ public class PlayerActor : MonoBehaviour {
 		LayerMask mask = LayerMask.GetMask ("Ground");
 
 		if ((mask.value & 1 << hit.gameObject.layer) == 1 << hit.gameObject.layer) {
-			Jump = false;
+			isGrounded = false;
 		}
+	}
+
+	public void TakeDamage(float dmg) 
+	{
+		float x = dmg - Armor;
+		if (x < 0) x = 0;
+		HP -= x;
+
+		if (HP <= 0) 
+		{
+			HP = 0;
+			Die();
+		}
+	}
+
+	public float getHP()
+	{
+		return HP;
+	}
+
+	public float getMP()
+	{
+		return MP;
+	}
+
+	public void Die() 
+	{
+		Destroy(this.gameObject);
 	}
 
 	// if player attack hits an enemy
