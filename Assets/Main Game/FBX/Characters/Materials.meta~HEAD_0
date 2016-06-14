@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Main Menu/Materials.meta:Assets/Main Menu/Materials.meta
+guid: 22ed34bc9c5efa74c93d382ab14788ed
+folderAsset: yes
+timeCreated: 1465938257
+licenseType: Free
+=======
+guid: cca2c8a4dcadc064ebc1a6d4de123fe3
+folderAsset: yes
+timeCreated: 1465345797
+licenseType: Pro
+>>>>>>> refs/remotes/origin/master:Assets/Main Game/FBX/Characters/Materials.meta:Assets/Main Game/FBX/Characters/Materials.meta
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

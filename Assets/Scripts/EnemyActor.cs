@@ -3,31 +3,50 @@ using System.Collections;
 
 public class EnemyActor : MonoBehaviour {
 
+
 	private CharacterController controller;
+	private GameObject GameController;
+	private EnemySettings EnemySet;
 	private float offset;
 	private float Timer = 0;
 	private bool Jump = false;
 	private float Y = -8;
 	public Transform target;
-	public float Enemy_HP = 100;
-	public float BaseSpeed = 1f;
-	public float JumpHeight = 1;
-	public float Gravity = 1;
-	// take damage function
-	public void TakeDamage(int x){
-		Enemy_HP -= x;
+	public float HP;
+	public float MP;
+	public float Damage;
+	public float Armor;
+	public float BaseSpeed;
+	public float JumpHeight;
+	public float Gravity;
+	public bool takingDamage = false;
+	public int type;
+
+	public void SetTarget(Transform t){
+		target = t;
 	}
 
 	// Use this for initialization
 	void Start () {
 		controller = gameObject.GetComponent<CharacterController> ();
+		GameController = GameObject.FindGameObjectWithTag("GameController");
+		EnemySet = GameController.GetComponent<EnemySettings>();
+
+		HP = EnemySet.EnemyTypes[type].EnemyHP;
+		MP = EnemySet.EnemyTypes[type].EnemyMP;
+		Damage = EnemySet.EnemyTypes[type].EnemyDamage;
+		Armor = EnemySet.EnemyTypes[type].EnemyArmor;
+		JumpHeight = EnemySet.EnemyTypes[type].EnemyJump;
+		BaseSpeed = EnemySet.EnemyTypes[type].EnemySpeed;
+		Gravity = EnemySet.EnemyTypes[type].EnemyGravity;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
 
 		Timer += Time.deltaTime;
-
+		if (target != null)
+		{
 		Vector3 finalTargetPosition = target.position;
 
 		// if the player is to the right of the enemy
@@ -46,7 +65,7 @@ public class EnemyActor : MonoBehaviour {
 		float finalSpeed = BaseSpeed;
 		float distanceToTarget = Vector3.Distance (transform.position, finalTargetPosition);
 		// if enemy is alive
-		if (Enemy_HP > 0) {
+		if (HP > 0) {
 			// x2 speed when far from player
 			if (distanceToTarget > 2f) {
 				finalSpeed = BaseSpeed * 2;
@@ -65,7 +84,7 @@ public class EnemyActor : MonoBehaviour {
 				}
 			}
 			// stop when next to player
-			if (distanceToTarget < 0.075f) {
+			if (distanceToTarget < 0.22f) {
 				finalSpeed = 0f;
 			}
 
@@ -80,6 +99,7 @@ public class EnemyActor : MonoBehaviour {
 			// apply the changes to position
 			controller.Move (targetDirection * finalSpeed * Time.deltaTime);
 		}
+		}
 	}
 
 	// if enemy touches ground allow jump
@@ -92,17 +112,27 @@ public class EnemyActor : MonoBehaviour {
 		}
 	}
 
-	// if player enters right Hitbox do right attack
-	void OnTrigger1Enter(Collider ATK1)
+	public void TakeDamage(float dmg) 
 	{
-
+		float x = dmg - Armor;
+		if (x < 0) x = 0;
+		HP -= x;
+		
+		if (HP <= 0) 
+		{
+			HP = 0;
+			Die();
+		}
 	}
 
-	// if player enters left Hitbox do left attack
-	void OnTrigger2Enter(Collider ATK2)
+	public float getHP()
 	{
-
+		return HP;
 	}
-	
+
+	public void Die() 
+	{
+		Destroy(this.gameObject);
+	}
 }
 
