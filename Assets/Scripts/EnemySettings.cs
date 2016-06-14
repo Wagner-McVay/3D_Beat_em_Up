@@ -11,6 +11,7 @@ public class EnemySettings: MonoBehaviour {
 	public class Data
 	{
 		public GameObject EnemyPrefab;
+		public GameObject RangeAttackPrefab;
 		public float EnemyHP = 100;
 		public float EnemyMP = 100;
 		public float EnemyDamage = 5;

@@ -17,7 +17,11 @@ public class PlayerActor : MonoBehaviour {
 	public float JumpVal;
 	public float Speed;
 	public float Gravity;
+	public float RangeAttackSpeed;
+	public float RangeAttackDecay;
 	public bool takingDamage = false;
+	public GameObject RangeAttackPrefab;
+	Animator animator;
 
 	[SerializeField]
 	private int PlayerID;
@@ -26,6 +30,7 @@ public class PlayerActor : MonoBehaviour {
 	void Start () {
 		controller = gameObject.GetComponent<CharacterController>();
 		GameController = GameObject.FindGameObjectWithTag("GameController");
+		animator = gameObject.GetComponent<Animator>();
 
 		PlayerSettings playerSett = GameController.GetComponent<PlayerSettings>();
 		PlayerID = (int)playerSett.Players - 1;
@@ -36,12 +41,92 @@ public class PlayerActor : MonoBehaviour {
 		JumpVal = playerSett.Data[PlayerID].PlayerJump;
 		Speed = playerSett.Data[PlayerID].PlayerSpeed;
 		Gravity = playerSett.Data[PlayerID].PlayerGravity;
-
+		RangeAttackSpeed = playerSett.Data[PlayerID].RangeAttackSpeed;
+		RangeAttackDecay = playerSett.Data[PlayerID].RangeAttackDecay;
+		RangeAttackPrefab = GameController.GetComponent<EnemySettings>().EnemyTypes[PlayerID].RangeAttackPrefab;
 	}
 
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
+		//Checks to see what the current animation state is
+		if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") ||
+		    this.animator.GetCurrentAnimatorStateInfo(0).IsName("Move") || 
+		    this.animator.GetCurrentAnimatorStateInfo(0).IsName("Shoot_Move") ||
+		    this.animator.GetCurrentAnimatorStateInfo(0).IsName("Shoot_Idle"))
+		{
+			
+			float curSpeed = Mathf.Abs(Speed * Input.GetAxis("Vertical")) + Mathf.Abs(Speed * Input.GetAxis("Horizontal"));
+			animator.SetFloat("Speed", curSpeed);
+			
+			float angleMedian = 0;
+			float arrowsPressed = 0;
+			if (Input.GetKey(KeyCode.A))
+			{
+				transform.position += new Vector3(-1, 0, 0) * Speed * Time.deltaTime;
+				//transform.eulerAngles = new Vector3(0,270,0);
+				angleMedian += 270;
+				arrowsPressed++;
+			}
+			if (Input.GetKey(KeyCode.D))
+			{
+				transform.position += new Vector3(1, 0, 0) * Speed * Time.deltaTime;
+				//transform.eulerAngles = new Vector3(0, 90, 0);
+				angleMedian += 90;
+				arrowsPressed++;
+			}
+			if (Input.GetKey(KeyCode.W))
+			{
+				transform.position += new Vector3(0, 0, 1) * Speed * Time.deltaTime;
+				//    transform.eulerAngles = new Vector3(0, 0, 0);
+				if (Input.GetKey(KeyCode.A))
+				{
+					angleMedian = 315;
+				}
+				else
+				{
+					arrowsPressed++;
+				}
+			}
+			if (Input.GetKey(KeyCode.S))
+			{
+				transform.position += new Vector3(0, 0, -1) * Speed * Time.deltaTime;
+				//transform.eulerAngles = new Vector3(0, 180, 0);
+				
+				angleMedian += 180;
+				arrowsPressed++;
+			}
+			if (arrowsPressed > 0)
+			{
+				transform.eulerAngles = new Vector3(0, angleMedian / arrowsPressed, 0);
+			}
+			
+			
+			if (Input.GetKey(KeyCode.Mouse0))
+			{
+				animator.SetTrigger("ConstFire");
+			}
+			//else { animator.ResetTrigger("ConstFire"); }
+			
+			if (Input.GetKeyDown(KeyCode.Mouse1))
+			{
+				animator.SetTrigger("Melee");
+			}
+		}
+		if (Input.GetKeyDown(KeyCode.Mouse0))
+		{
+			animator.SetTrigger("Fire");
+		}
+		if (Input.GetKey(KeyCode.Mouse0))
+		{
+			animator.SetTrigger("ConstFire");
+		}
+		else { animator.ResetTrigger("ConstFire"); }
+		
+		if (Input.GetKeyDown(KeyCode.Mouse1))
+		{
+			animator.SetTrigger("Melee");
+		}
 
 		// Gravity and jump
 		if (1 > 0) {
@@ -49,17 +134,30 @@ public class PlayerActor : MonoBehaviour {
 				Y -= (Gravity / 4);
 			}
 			else Y = -8;
-
+			
 			if (Input.GetKey (KeyCode.Space)) {
 				if (isGrounded == false) {
 					Y = (JumpVal+3);			
 				}
 				isGrounded = true;
 			}
-
+			
 			Vector3 move_direction = new Vector3 (0, Y, 0);
 			controller.Move (move_direction * Time.deltaTime);
 		}
+	}
+
+	// if player touches ground allow jump
+	void OnControllerColliderHit(ControllerColliderHit hit)
+	{
+		LayerMask mask = LayerMask.GetMask ("Ground");
+		
+		if ((mask.value & 1 << hit.gameObject.layer) == 1 << hit.gameObject.layer) {
+			isGrounded = false;
+		}
+	}
+
+//	{
 
 //		float hVal = Input.GetAxis ("Horizontal");
 //		float vVal = Input.GetAxis ("Vertical");
@@ -70,46 +168,49 @@ public class PlayerActor : MonoBehaviour {
 //		controller.Move (moveDirection);
 
 		// WSAD movement
-		if (Input.GetKey (KeyCode.W)) {
-			Vector3 move_direction = new Vector3 (0, 0, Speed+0.5f);
-			controller.Move (move_direction * Time.deltaTime);
-		}
-		if (Input.GetKey (KeyCode.S)) {
-			Vector3 move_direction = new Vector3 (0, 0, -Speed-0.5f);
-			controller.Move (move_direction * Time.deltaTime);
-		}
-		if (Input.GetKey (KeyCode.A)) {
-			Vector3 move_direction = new Vector3 (-Speed-1, 0, 0);
-			controller.Move (move_direction * Time.deltaTime);
-//			Direction = false;
-		}
-		if (Input.GetKey (KeyCode.D)) {
-			Vector3 move_direction = new Vector3 (Speed+1, 0, 0);
-			controller.Move (move_direction * Time.deltaTime);
-//			Direction = true;
-		}
-
-
-//		if (Input.GetKeyDown (KeyCode.Keypad1)) {
-//
-//			if (Direction == true){
-//				OnTriggerEnter(ATK_R);
-//			}
-//			else{
-//				OnTriggerEnter(ATK_L);
-//			}
+//		if (Input.GetKey (KeyCode.W)) {
+//			Vector3 move_direction = new Vector3 (0, 0, Speed+0.5f);
+//			controller.Move (move_direction * Time.deltaTime);
 //		}
-	}
+//		if (Input.GetKey (KeyCode.S)) {
+//			Vector3 move_direction = new Vector3 (0, 0, -Speed-0.5f);
+//			controller.Move (move_direction * Time.deltaTime);
+//		}
+//		if (Input.GetKey (KeyCode.A)) {
+//			Vector3 move_direction = new Vector3 (-Speed-1, 0, 0);
+//			controller.Move (move_direction * Time.deltaTime);
+////			Direction = false;
+//		}
+//		if (Input.GetKey (KeyCode.D)) {
+//			Vector3 move_direction = new Vector3 (Speed+1, 0, 0);
+//			controller.Move (move_direction * Time.deltaTime);
+////			Direction = true;
+//		}
 
-	// if player touches ground allow jump
-	void OnControllerColliderHit(ControllerColliderHit hit)
+
+	void BigBullet()
 	{
-		LayerMask mask = LayerMask.GetMask ("Ground");
+		GameObject TempBullet;
+		Vector3 pos = gameObject.transform.position;
+		Vector3 rot = gameObject.transform.rotation.eulerAngles;
+		TempBullet = Instantiate(RangeAttackPrefab, pos, Quaternion.Euler(rot)) as GameObject;
+		TempBullet.AddComponent<BulletData>();
 
-		if ((mask.value & 1 << hit.gameObject.layer) == 1 << hit.gameObject.layer) {
-			isGrounded = false;
-		}
+		if (gameObject.transform.rotation.y == 0)
+			TempBullet.transform.position += new Vector3(0, .45f, .2f);
+		if (gameObject.transform.rotation.y == 90)
+			TempBullet.transform.position += new Vector3(.2f, .45f, 0);
+		if (gameObject.transform.rotation.y == 180)
+			TempBullet.transform.position += new Vector3(0, .45f, -.2f);
+		if (gameObject.transform.rotation.y == 270)
+			TempBullet.transform.position += new Vector3(-.2f, .45f, 0);
+
+		Rigidbody TempBulletRigidBody;
+		TempBulletRigidBody = TempBullet.GetComponent<Rigidbody>();
+		
+		TempBulletRigidBody.AddForce(transform.forward * RangeAttackSpeed);
 	}
+
 
 	public void TakeDamage(float dmg) 
 	{

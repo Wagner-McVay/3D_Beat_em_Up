@@ -9,17 +9,20 @@ public class PlayerSettings : MonoBehaviour {
 	[System.Serializable]
 	public class data
 	{
-	public enum playerType {Wolf = 1,Android = 2,Mage = 3,Mantis = 4}
-	public playerType PlayerType;
+		public enum playerType {Wolf = 1,Android = 2,Mage = 3,Mantis = 4}
+		public playerType PlayerType;
 
-	public string PlayerName;
-	public float PlayerHP = 100;
-	public float PlayerMP = 100;
-	public float PlayerDamage = 5;
-	public float PlayerArmor = 0;
-	public float PlayerJump = 1;
-	public float PlayerSpeed = 1;
-	public float PlayerGravity = 1;
+		public string PlayerName;
+		public float PlayerHP = 100;
+		public float PlayerMP = 100;
+		public float PlayerDamage = 5;
+		public float PlayerArmor = 0;
+		public float PlayerJump = 1;
+		public float PlayerSpeed = 1;
+		public float PlayerGravity = 1;
+		public float RangeAttackSpeed = 1;
+		public float RangeAttackDecay = 1;
+
 	}
 	public data[] Data;
 
