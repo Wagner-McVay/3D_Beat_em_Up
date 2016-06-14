@@ -65,7 +65,7 @@ public class GameActor : MonoBehaviour {
 
 		if (EnemyHPBars == null) EnemyHPBars = GameObject.FindGameObjectsWithTag("EnemyHP");
 		if (EnemyHPBars != null) 
-		{
+		
 			E_HP = new Slider[EnemyHPBars.Length];
 			for(int i = 0; i < EnemyHPBars.Length; i++)
 			{
@@ -73,7 +73,7 @@ public class GameActor : MonoBehaviour {
 				E_HP[i] = EnemyHPBars[i].GetComponent<Slider>();
 				E_HP[i].maxValue = EnemySett.EnemyTypes[typ].EnemyHP;
 			}
-		}
+
 
 		// turn UI objects off
 		PauseMenu.SetActive (false);
@@ -88,7 +88,7 @@ public class GameActor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Player == null) 
-		{
+		
 			Player = GameObject.FindGameObjectWithTag("Player");
 			for(int plr = 0; plr < Players; plr++)
 			{
@@ -97,16 +97,16 @@ public class GameActor : MonoBehaviour {
 				if (Player != null) P_MP.value = Player.GetComponent<PlayerActor>().getMP();
 				P_MPVal.text = P_MP.value.ToString();
 			}
-		}
+
 
 		if (enemies == null)
-		{
+		
 			enemies = GameObject.FindGameObjectsWithTag("Enemy");
 			for(int nme = 0; nme < E_HP.Length; nme++)
 			{
 				if (enemies[nme] != null) E_HP[nme].value = enemies[nme].GetComponent<EnemyActor>().getHP();
 			}
-		}
+
 		// pause if Esc is pressed
 		if (Input.GetKeyDown (KeyCode.Escape))
 		{
