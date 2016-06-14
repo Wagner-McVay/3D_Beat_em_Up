@@ -23,7 +23,8 @@ public class Player : MonoBehaviour
         //Checks to see what the current animation state is
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") ||
             this.animator.GetCurrentAnimatorStateInfo(0).IsName("Move") || 
-            this.animator.GetCurrentAnimatorStateInfo(0).IsName("Shoot_Move"))
+            this.animator.GetCurrentAnimatorStateInfo(0).IsName("Shoot_Move") ||
+            this.animator.GetCurrentAnimatorStateInfo(0).IsName("Shoot_Idle"))
         {
 
             float curSpeed = Mathf.Abs(speed * Input.GetAxis("Vertical")) + Mathf.Abs(speed * Input.GetAxis("Horizontal"));
